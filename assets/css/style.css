@@ -1,0 +1,254 @@
+:root {
+    --padrao: #dea194;
+    --textos: #133b47;
+    --branco: #f9f9f9;
+
+}
+
+*  {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/* START NAVBAR */
+body {
+    background-color: var(--padrao);
+}
+
+nav {
+    align-items: center;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: var(--branco);
+    height: 100%;
+    width: 12%;
+    z-index: 20;
+}
+.logo img {
+    width: 200px;
+    display: flex;
+    margin-left: 7%;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+nav .options {
+    align-items: center;
+    margin-top: 10%;
+    width: 100%;
+}
+
+nav .menu {
+    margin-top: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav .menu li {
+    padding-bottom: 10%;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav .menu li a {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: var(--textos);
+    font-weight: 500;
+    justify-content: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin: 0 0 0 0;
+    transition: all .6s;
+}
+
+nav .menu li a:hover {
+    color: var(--padrao);
+}
+/* End NavBar */
+
+/* Section one Home */
+.section-one .slide-home{
+    background-size: cover;
+    background-position: right right;
+}
+.section-one .content {
+    display: flex;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+}
+.section-one .playvideo{
+    position: absolute;
+    align-items:  center;
+    top: 50%;
+    left: 50%;
+    opacity: 0.7;
+}
+
+.section-one .playvideo:hover {
+    opacity: 1.0;
+    transition: all .6s;
+}
+
+.section-one .content-icons {
+    display: flex;
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+    justify-content: center;
+}
+
+.section-one .content-icons .socials li {
+   
+    display: inline-block;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-one .content-icons .socials li a {
+    display: flex;
+    margin: 0 0 0 14px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: var(--branco);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    color: var(--textos);
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .6s;
+}
+
+.section-one .content-icons .socials li a:hover {
+    background-color: var(--textos);
+    color: var(--branco);
+}
+
+
+
+
+
+.section-one .content-text {
+    position: absolute;
+    top: 2%;
+    left: 20%;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 350px;
+    padding: 0;
+}
+.section-one .content-text h1 {
+    margin-top: 24%;
+    font-family: 'carlasans';
+    font-weight: 400;
+    color: var(--padrao);
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.section-one .slide-home .content .btnbusca{
+    position: absolute;
+    background: var(--branco);
+    color: var(--padrao);
+    border-radius:  30px;
+    width: 200px;
+    height: 30px;
+    top: 5%;
+    right: 15%;
+
+}
+
+.section-one .slide-home .content .btnLogin{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--branco);
+    color: var(--textos);
+    opacity: 0.7;;
+    border-radius:  30px;
+    width: 30px;
+    height: 30px;
+    right: 10%;
+    top: 5%;
+
+    
+}
+.section-one .content .btn {
+    position: absolute;
+    left: 20%;
+    bottom: 5%;
+    width: 200px;;
+    height: 30px;
+    font-family: "Montserrat", serif;
+    text-transform: capitalize;
+    color: var(--padrao);
+    background-color: var(--branco);
+    font-size: 12px;
+    border-radius: 30px;
+    transition: all 0.6s;
+}
+
+.section-one .content-text .btn:hover {
+    background-color: var(--padrao);
+    color: var(--branco);
+}
+/* end section one */
+
+
+/*start section two */
+.section-two{
+    background: var(--branco);
+    position: absolute;
+    display: flex;
+    height: 600px;
+    max-height: 600px;
+}
+.section-two .content-text-two{
+    display: flex;
+    background: var(--branco);
+}
+.section-two .content-two .imagem{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;    
+    min-height: 600px;
+    width: 20%;
+    position: absolute;
+}
+
+
+.section-two .content-two-text h1 {
+    font-family: "carlasans";
+    margin-left: 23%;
+    font-weight: 400;
+    color: var(--textos);
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+.section-two .content-two-text h3 {
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-left: 23%;
+    max-width: 60%;
+    width: 100%;
+    color: var(--textos);
+    font-size: 14px;
+    line-height: 2;
+}
+
+
+
+/* end section two */
