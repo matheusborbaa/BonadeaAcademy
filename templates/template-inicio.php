@@ -31,8 +31,6 @@ get_header();
 
     </div>
 </section>
-
-
 <section class="section-two">
     <div class="content-two">
         <div class="imagem" style="background-image: url('<?php echo _URLTHEME; ?>/assets/img/sobrecurso.png'); ">
@@ -40,7 +38,7 @@ get_header();
         <div class="content-two-text">
             <h1>SOBRE O CURSO</h1>
             <h3>
-           <p class="destaque"> O curso de Formação Profissional “O Poder do Olhar”, é uma formação transformadora que vai muito além de ensinar técnicas.</p>
+           <p class=""> O curso de Formação Profissional “O Poder do Olhar”, é uma formação transformadora que vai muito além de ensinar técnicas.</p>
 
 Este curso foi criado para quem se quer tornar profissional na área e quem quer elevar-se e destacar- se na área, dominando as tendências mais avançadas e oferecendo serviços de excelência que encantam e fidelizam clientes.
 
@@ -61,6 +59,27 @@ Junta-te a esta formação e dá o próximo passo para construir uma carreira de
         </div>
     </div>
 
+</section>
+
+
+
+<section class="section-three">
+    <div class="content-three">
+        <div class="titulo">CONTEÚDO PROGRAMÁTICO</div>
+        <div class="colunas">
+            <div class="esquerda">
+                <div class="cont1">dasdsadas</div>
+                <div class=" cont1">dasdasdsa</div>
+                <div class=" cont1">dasdsadsa</div>
+                <div class=" cont1">dsadadsa</div>
+            </div>
+            <div class="direita">
+                <div class=" cont1">dsadasdsa</div>
+                <div class=" cont2">dasdasdas</div>
+                <div class=" cont1">dasdsa</div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <?php

@@ -2,6 +2,7 @@
     --padrao: #dea194;
     --textos: #133b47;
     --branco: #f9f9f9;
+    --rodape: #efeae9;
 
 }
 
@@ -159,14 +160,28 @@ nav .menu li a:hover {
 }
 .section-one .slide-home .content .btnbusca{
     position: absolute;
+    display: flex;
     background: var(--branco);
     color: var(--padrao);
     border-radius:  30px;
     width: 200px;
     height: 30px;
     top: 5%;
-    right: 15%;
+    right: 13%;
 
+}
+.btnBusca i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+.btnBusca input{
+    border-radius: 30px;
+    background-color: var(--branco);
+    font-family: 'Montserrat';
+    padding: 1px 1px 1px 10px;
+    width: 160px;
 }
 
 .section-one .slide-home .content .btnLogin{
@@ -176,7 +191,6 @@ nav .menu li a:hover {
     justify-content: center;
     background: var(--branco);
     color: var(--textos);
-    opacity: 0.7;;
     border-radius:  30px;
     width: 30px;
     height: 30px;
@@ -209,9 +223,11 @@ nav .menu li a:hover {
 
 /*start section two */
 .section-two{
+    height: 100vh;
+
     background: var(--branco);
-    position: absolute;
     display: flex;
+    position: relative;
     height: 600px;
     max-height: 600px;
 }
@@ -252,3 +268,154 @@ nav .menu li a:hover {
 
 
 /* end section two */
+
+
+/* section three */ 
+ .section-three{
+    background: var(--padrao);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 600px;
+    min-height: 600px;
+}
+
+.section-three .content-three{
+    background-color: var(--padrao);
+    align-items: center;
+    justify-content: center;
+}
+.section-three .titulo{
+    font-family: 'carlasans';
+    color: var(--branco);
+    font-size: 45px;
+    margin-left: 100%;
+    width: 100%;
+    margin-top: 4%;
+}
+.section-three .content-three .colunas{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+.section-three .content-three .colunas .esquerda .cont1{
+    position: absolute;
+    display: flex;
+    flex-direction: unset;
+    width: 50%;
+    left: 15%;
+    background: var(--branco);
+    max-width: 25%;
+    border-radius: 40px;
+    height: 85px;
+    max-height: 85px;
+}
+.section-three .content-three .colunas .direita .cont1{
+    width: 50%;
+    right: 15%;
+    position: absolute;
+    display: flex;
+    flex-direction: unset;
+    width: 50%;
+    left: 15%;
+    background: var(--branco);
+    max-width: 25%;
+    border-radius: 40px;
+    height: 85px;
+    max-height: 85px;
+}
+
+
+/* footer */
+
+
+/* START FOOTER  */
+footer {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--rodape);
+    padding: 50px 120px;
+}
+
+footer .logo img {
+    width: 250px;
+    max-width: 100%;
+}
+
+footer .menu {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+footer .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .center h3 {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+footer .center li {
+    display: flex;
+    flex-direction: unset;
+    align-items: center;
+    list-style-type: none;
+}
+
+footer .center li a {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 30px 0 0;
+    transition: all .6s;
+}
+
+footer .center li a:hover {
+    opacity: 0.6;
+}
+
+footer .socials {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+footer .socials li {
+    display: flex;
+    flex-direction: unset;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+footer .socials li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    color: #F26722;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .6s;
+}
+
+footer .socials li a:hover {
+    opacity: 0.6;
+}
+
+/* END FOOTER  */
