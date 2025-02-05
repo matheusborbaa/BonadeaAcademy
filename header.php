@@ -1,21 +1,24 @@
-<!DOCTYPE html>
+
+   <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width">
-    <?php wp_head(); ?>
-</head>
+    <?php wp_head(); ?></head>
 
-<body <?php body_class(); ?>>
-
-    <nav class="nav">
-        <div class="options">
-            <div class="logo">
-                <a href="<?php echo get_home_url(); ?>">
-                    <img src="<?php echo _URLTHEME; ?>/assets/img/logo.png" alt="Logo Jacomossi">
-                </a>
+    <body <?php body_class(); ?>>
+    <header>
+        <nav>
+            <img class="logo" src="assets/Logo__3.png" alt="">
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#beleza">Beleza</a>
+                <a href="#estetica">Estética</a>
+                <a href="#contato">Contato</a>
             </div>
-            <?php wp_nav_menu(array('theme_location' => 'main_menu')); ?>
-        </div>
-    </nav>
+        </nav>
+        <div class="progress-bar"></div>
+    </header>
