@@ -20,5 +20,5 @@
                 <a href="#contato">Contato</a>
             </div>
         </nav>
-        <div class="progress-bar"></div>
+        <div class="progress-bar" ></div>
     </header>
