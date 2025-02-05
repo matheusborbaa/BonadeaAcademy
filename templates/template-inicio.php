@@ -66,18 +66,25 @@ Junta-te a esta formação e dá o próximo passo para construir uma carreira de
 <section class="section-three">
     <div class="content-three">
         <div class="titulo">CONTEÚDO PROGRAMÁTICO</div>
-        <div class="colunas">
             <div class="esquerda">
-                <div class="cont1">dasdsadas</div>
-                <div class=" cont1">dasdasdsa</div>
-                <div class=" cont1">dasdsadsa</div>
-                <div class=" cont1">dsadadsa</div>
+            <div class="cont"><i class="fa fa-user"></i> <p class="texto">Brow Lamination<b> (4h)</b></p> </div>
+            <div class="cont"><i class="fa fa-user"></i> <p class="texto">Brow Lamination<b> (4h)</b></p> </div>
+            <div class="cont"><i class="fa fa-user"></i> <p class="texto">Brow Lamination<b> (4h)</b></p> </div>
+            <div class="cont"><i class="fa fa-user"></i> <p class="texto">Brow Lamination<b> (4h)</b></p> </div>
             </div>
             <div class="direita">
-                <div class=" cont1">dsadasdsa</div>
-                <div class=" cont2">dasdasdas</div>
-                <div class=" cont1">dasdsa</div>
+            <div class="cont"><i class="fa fa-user"></i> <p class="texto">Brow Lamination<b> (4h)</b></p> </div>
+            <div class="cont"><i class="fa fa-user"></i> <p class="texto">Brow Lamination<b> (4h)</b></p> </div>
+            <div class="cont"><i class="fa fa-user"></i> <p class="texto">Brow Lamination<b> (4h)</b></p> </div>
+            <div class="cont"><i class="fa fa-user"></i> <p class="texto">Brow Lamination<b> (4h)</b></p> </div>
+            <button class="cont-btn">Quero me inscrever</button>
             </div>
+    </div>
+</section>
+<section class="four">
+    <div class="content">
+        <div class="cont">
+            
         </div>
     </div>
 </section>

@@ -276,55 +276,111 @@ nav .menu li a:hover {
     display: flex;
     flex-direction: row;
     position: relative;
-    height: 600px;
-    min-height: 600px;
+    height: 850px;
+    max-height: 850px;
 }
 
 .section-three .content-three{
     background-color: var(--padrao);
-    align-items: center;
-    justify-content: center;
+    
+
 }
 .section-three .titulo{
     font-family: 'carlasans';
     color: var(--branco);
     font-size: 45px;
-    margin-left: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100%;    
     width: 100%;
     margin-top: 4%;
+    margin-bottom: 4%;
 }
-.section-three .content-three .colunas{
+/* esquerda */
+.section-three .content-three .esquerda{
+    left: 15%;    
     display: flex;
+    flex-direction:column;
     position: absolute;
     justify-content: center;
 }
-.section-three .content-three .colunas .esquerda .cont1{
-    position: absolute;
+.section-three .content-three .esquerda .cont{
     display: flex;
-    flex-direction: unset;
-    width: 50%;
-    left: 15%;
+    flex-direction: row;
     background: var(--branco);
-    max-width: 25%;
-    border-radius: 40px;
-    height: 85px;
-    max-height: 85px;
-}
-.section-three .content-three .colunas .direita .cont1{
-    width: 50%;
-    right: 15%;
-    position: absolute;
-    display: flex;
-    flex-direction: unset;
-    width: 50%;
-    left: 15%;
-    background: var(--branco);
-    max-width: 25%;
-    border-radius: 40px;
-    height: 85px;
-    max-height: 85px;
+    width: 300%;
+    border-radius: 30px;
+    height: 120px;
+    margin-top: 25;
 }
 
+.section-three .content-three .esquerda .cont i{
+    justify-content: left;
+    padding-left: 5%;
+    align-items: left;
+    padding-top:10%;
+}
+.section-three .content-three .esquerda .cont .texto{
+    display: flex;
+    font-family: "textbook-new", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    flex-direction: row;
+    margin-left: 5%;
+    padding: 2 2 2 2;
+    justify-content: center;
+    align-items: center;
+}
+/* fim esquerda */ 
+/* direita */ 
+.section-three .content-three .direita{
+    right: 30%;    
+    display: flex;
+    flex-direction:column;
+    position: absolute;
+    justify-content: center;
+}
+.section-three .content-three .direita .cont{
+    display: flex;
+    flex-direction: row;
+    width: 300%;
+    background: var(--branco);
+    border-radius: 30px;
+    height: 120px;
+    max-height: 120px;
+    margin-top: 25;
+}
+
+.section-three .content-three .direita .cont i{
+    justify-content: left;
+    padding-left: 5%;
+    align-items: left;
+    padding-top:10%;
+}
+.section-three .content-three .direita .cont .texto{
+    display: flex;
+    font-family: "textbook-new", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    flex-direction: row;
+    margin-left: 5%;
+    padding: 2 2 2 2;
+    justify-content: center;
+    align-items: center;
+}
+.section-three .content-three .direita .cont-btn{
+    width: 120%;
+    font-family: 'textbook-new', sans-serif;
+    font-weight: 400;
+    
+    background: var(--branco);
+    border-radius: 30px;
+    height: 30px;
+    max-height: 30px;
+    margin-top: 25;
+}
 
 /* footer */
 
