@@ -25,7 +25,7 @@ get_header();
                 <h1>Seja uma Profissional Bonadea</h1>
 
             </div>
-            <a href='#'> <button class="btn" href="" src="#">Saiba mais </button></a>
+          <button class="btn" href="" src="#">Saiba mais </button></a>
 
         </div>
 
@@ -67,27 +67,69 @@ Junta-te a esta formação e dá o próximo passo para construir uma carreira de
     <div class="content-three">
         <div class="titulo">CONTEÚDO PROGRAMÁTICO</div>
             <div class="esquerda">
-            <div class="cont"><i class="fa fa-user"></i> <p class="texto">Brow Lamination<b> (4h)</b></p> </div>
-            <div class="cont"><i class="fa fa-user"></i> <p class="texto">Brow Lamination<b> (4h)</b></p> </div>
-            <div class="cont"><i class="fa fa-user"></i> <p class="texto">Brow Lamination<b> (4h)</b></p> </div>
-            <div class="cont"><i class="fa fa-user"></i> <p class="texto">Brow Lamination<b> (4h)</b></p> </div>
+            <div class="cont"><img src="<?php echo _URLTHEME; ?>/assets/img/soap.png"> <div class="texto">Higiene e Segurança, Apresentação dos Materiais, Ficha de anamnese<b> (2h)</b></div> </div>
+            <div class="cont"><img src="<?php echo _URLTHEME; ?>/assets/img/sobrancelha.png"><p class="texto">Design de sobrancelhas <b> (6h)</b></p> </div>
+            <div class="cont"><img src="<?php echo _URLTHEME; ?>/assets/img/line.png"> <p class="texto">Threading em Sobrancelhas <b> (6h)</b></p> </div>
+            <div class="cont"><img src="<?php echo _URLTHEME; ?>/assets/img/eye.png"> <p class="texto">Henna e Coloração de
+            Sobrancelhas<b> (4h)</b></p> </div>
+            
+            <button class="cont-btn"> <img src="<?php echo _URLTHEME; ?>/assets/img/relogio.png">Total de <b style="margin-left: 4px;">40 horas</B></button>
             </div>
             <div class="direita">
-            <div class="cont"><i class="fa fa-user"></i> <p class="texto">Brow Lamination<b> (4h)</b></p> </div>
-            <div class="cont"><i class="fa fa-user"></i> <p class="texto">Brow Lamination<b> (4h)</b></p> </div>
-            <div class="cont"><i class="fa fa-user"></i> <p class="texto">Brow Lamination<b> (4h)</b></p> </div>
-            <div class="cont"><i class="fa fa-user"></i> <p class="texto">Brow Lamination<b> (4h)</b></p> </div>
+            <div class="cont"><img src="<?php echo _URLTHEME; ?>/assets/img/eye2.png"> <p class="texto">Brow Lamination<b> (4h)</b></p> </div>
+            <div class="cont"><img src="<?php echo _URLTHEME; ?>/assets/img/cilios.png"><p class="texto">Lifting de Ptestanas<b> (6h)</b></p> </div>
+            <div class="cont"><img src="<?php echo _URLTHEME; ?>/assets/img/ciliosposticos.png"><p class="texto">Técnicas de extensão de Pestanas<b> (8h)</b></p> </div>
+            <div class="cont"><img src="<?php echo _URLTHEME; ?>/assets/img/make.png"><p class="texto">Maquilhagem de Olhos
+            e Sobrancelhas<b> (4h)</b></p> </div>
             <button class="cont-btn">Quero me inscrever</button>
             </div>
     </div>
 </section>
-<section class="four">
+
+<section class="section-four">
     <div class="content">
-        <div class="cont">
+        <div class="box">
+            <div class="icone">
+            <img src="<?php echo _URLTHEME; ?>/assets/img/relogio.png" >
+            </div>
+            <div class="texto">
+            <p class="negrito"> Duração total do curso:</p>
+            <p class="info"style="margin-top: 2%;"> (40 horas ou 5 dias)</p>
+            <p class="info" style="margin-top: 8%;"><B>Modalidade:</B> presencial</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icone">
+            <img src="<?php echo _URLTHEME; ?>/assets/img/calendario.png" >
+            </div>
+            <div class="texto">
+            <p class="info" style="margin-top: 0;"><Center>Datas específicas ou <BR>previsão de início em Fevereiro</Center></p>
+
+                <p class="negrito" style="margin-top: 10%;">Localização:
+Oeiras - BonaDea </p>
+
+            </div>
+        </div>
+        <div class="box">
+            <div class="icone">
+            <img src="<?php echo _URLTHEME; ?>/assets/img/maquiagens.png" >
+            </div>
+            <div class="texto">
+            <p class="negrito">Materiais Incluídos </p>
+            <p class="info"> Manual e Kit completo</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-five">
+    <div class="content">
+        <div class="box">
             
         </div>
     </div>
 </section>
+
 
 <?php
 get_footer();

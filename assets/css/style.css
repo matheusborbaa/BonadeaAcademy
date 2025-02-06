@@ -209,13 +209,14 @@ nav .menu li a:hover {
     text-transform: capitalize;
     color: var(--padrao);
     background-color: var(--branco);
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: 500;
     border-radius: 30px;
     transition: all 0.6s;
 }
 
-.section-one .content-text .btn:hover {
-    background-color: var(--padrao);
+.section-one .content .btn:hover {
+    background-color: var(--textos);
     color: var(--branco);
 }
 /* end section one */
@@ -308,34 +309,76 @@ nav .menu li a:hover {
     display: flex;
     flex-direction: row;
     background: var(--branco);
-    width: 300%;
+    width: 500px;
     border-radius: 30px;
     height: 120px;
     margin-top: 25;
+    align-items: center;
+    transition: all 0.5s;
 }
-
-.section-three .content-three .esquerda .cont i{
+.section-three .content-three .esquerda .cont:hover{
+    transform: scale(1.05);
+    box-shadow:
+  0 2px 0.4em rgb(0, 0, 0, 0.3);
+  transition: all 0.5s;
+}
+.section-three .content-three .esquerda .cont img{
     justify-content: left;
     padding-left: 5%;
     align-items: left;
-    padding-top:10%;
 }
 .section-three .content-three .esquerda .cont .texto{
-    display: flex;
-    font-family: "textbook-new", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    flex-direction: row;
-    margin-left: 5%;
-    padding: 2 2 2 2;
     justify-content: center;
     align-items: center;
+    font-family: "textbook-new", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--textos);
+    font-size: 18px;
+    margin-left: 5%;
+    padding: 2 2 2 2;
+   
+}
+
+
+.section-three .content-three .esquerda .cont-btn{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'textbook-new', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    background: var(--branco);
+    color: var(--textos);
+    border-radius: 25px;
+    height: 65px;
+    max-height: 65px;
+    margin-top: 25;
+    margin-left: 30%;
+    text-decoration: none;
+    right: 0;
+    transition: all 0.5s;
+
+}
+.section-three .content-three .esquerda .cont-btn img{
+    display: flex;
+    flex-direction: row;
+    padding-right: 17px;
+    height: 40px;
+    width: auto;
+}
+
+.section-three .content-three .esquerda .cont-btn:hover{
+    transform: scale(1.05);
+    box-shadow:
+  0 2px 0.4em rgb(0, 0, 0, 0.3);
+  transition: all 0.5s;
 }
 /* fim esquerda */ 
 /* direita */ 
 .section-three .content-three .direita{
-    right: 30%;    
+    right: 15%;    
     display: flex;
     flex-direction:column;
     position: absolute;
@@ -344,134 +387,196 @@ nav .menu li a:hover {
 .section-three .content-three .direita .cont{
     display: flex;
     flex-direction: row;
-    width: 300%;
     background: var(--branco);
+    width: 500px;
     border-radius: 30px;
     height: 120px;
-    max-height: 120px;
     margin-top: 25;
+    align-items: center;
+    transition: all 0.5s;
+
 }
 
-.section-three .content-three .direita .cont i{
+.section-three .content-three .direita .cont img{
     justify-content: left;
     padding-left: 5%;
     align-items: left;
-    padding-top:10%;
 }
 .section-three .content-three .direita .cont .texto{
     display: flex;
     font-family: "textbook-new", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
-    font-size: 14px;
+    color: var(--textos);
+    font-size: 18px;
     flex-direction: row;
     margin-left: 5%;
     padding: 2 2 2 2;
     justify-content: center;
     align-items: center;
 }
+
+.section-three .content-three .direita .cont:hover{
+    transform: scale(1.05);
+    box-shadow:
+  0 2px 0.4em rgb(0, 0, 0, 0.3);
+  transition: all 0.5s;
+}
 .section-three .content-three .direita .cont-btn{
-    width: 120%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'textbook-new', sans-serif;
     font-weight: 400;
-    
     background: var(--branco);
-    border-radius: 30px;
-    height: 30px;
-    max-height: 30px;
-    margin-top: 25;
+    color: var(--padrao);
+    border-radius: 25px;
+    height: 40px;
+    max-height: 40px;
+    margin-top: 40px;
+    margin-left: 30%;
+    right: 0;
+    transition: all 0.5s;
+
+}
+.section-three .content-three .direita .cont-btn:hover{
+    transform: scale(1.05);
+    box-shadow:
+  0 2px 0.4em rgb(0, 0, 0, 0.3);
+  transition: all 0.5s;
+}
+.section-three .content-three .direita .cont-btn:hover{
+        background: var(--textos);
+        color: var(--branco);
+}
+/* end section three */
+
+/*start section four */
+.section-four .content{
+    display: flex;
+    position: relative;
+    
+    height: 300px;
+    min-height: 300px;
+    background-image: linear-gradient( to left, #fbd3cd, #dea194);
+}
+.section-four .content .box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background-color: var(--branco);
+    margin-top: 5%;
+    height: 100%;
+    margin-left: 10%;
+    width: 20%;
+    border-radius: 25px;
+    box-shadow:
+    0 2px 0.4em rgb(0, 0, 0, 0.3);
+    transition: all 0.5s;
+
+}
+.section-four .content .box:hover{
+    transform: scale(1.05);
+    box-shadow:
+  0 2px 0.4em rgb(0, 0, 0, 0.3);
+  transition: all 0.5s;
+}
+.section-four .content .box .icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+
+}
+.section-four .content .box .texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    color: var(--textos);
+    font-family: 'textbook-new', sans-serif;
+    font-size: 18px;
+
+}
+.section-four .content .box .texto p{
+
 }
 
+.negrito{
+    font-weight: 600;
+}
+.info{
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+/* end section four */
+/*section five */
+.section-five .content{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    min-height: 300px;
+    color: var(--branco);
+    background-color: var(--branco) !important;
+
+}
+
+
+
+
+
+
+
+
+/* end section five */
 /* footer */
 
 
 /* START FOOTER  */
+/* Footer */
 footer {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--rodape);
-    padding: 50px 120px;
+    background: #f8f0f0;
+    padding: 4rem 1rem;
 }
 
-footer .logo img {
-    width: 250px;
+.footer-content {
+    display: flex;
     max-width: 100%;
-}
-
-footer .menu {
-    display: flex;
+    margin: 0 auto;
+    gap: 2rem;
+    text-align: center;
     align-items: center;
-    padding: 0;
-}
-
-footer .center {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction:inherit;
+    font-family: 'textbook-new', sans-serif;
 }
-
-footer .center h3 {
-    font-family: 'Montserrat';
-    font-size: 14px;
-    color: #fff;
-    font-weight: 700;
-    padding-bottom: 15px;
+.footer-content img{
+    height: 60px;
 }
-
-footer .center li {
-    display: flex;
-    flex-direction: unset;
-    align-items: center;
-    list-style-type: none;
-}
-
-footer .center li a {
-    font-family: 'Montserrat';
-    font-size: 14px;
-    color: #fff;
-    font-weight: 500;
-    text-decoration: none;
-    margin: 0 30px 0 0;
-    transition: all .6s;
-}
-
-footer .center li a:hover {
-    opacity: 0.6;
-}
-
-footer .socials {
-    display: flex;
-    align-items: center;
-    padding: 0;
-}
-
-footer .socials li {
-    display: flex;
-    flex-direction: unset;
-    align-items: center;
-    list-style-type: none;
-    margin-left: 15px;
-}
-
-footer .socials li a {
+footer .img-footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
-    background-color: #fff;
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
-    color: #F26722;
-    font-weight: 500;
-    text-decoration: none;
-    transition: all .6s;
+    width: 100%;
+    margin-bottom: 4%;
 }
+footer .final-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-family: 'textbook-new', sans-serif;
 
-footer .socials li a:hover {
-    opacity: 0.6;
+
 }
 
 /* END FOOTER  */

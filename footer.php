@@ -1,19 +1,30 @@
-<footer>
-    <div class="logo">
-        <a href="<?php echo get_home_url(); ?>">
-            <img src="<?php echo _URLTHEME; ?>/assets/img/logo-bonadea-branco.png" alt="Logo Bonadea">
-        </a>
-    </div>
-    <div class="center">
-        <h3>Navegação</h3>
-        <?php wp_nav_menu(array('theme_location' => 'footer_menu')); ?>
-    </div>
-    <div class="right">
-       <a class="socials" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-        <a class="socials" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a class="socials" href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-    </div>
-</footer>
+
+<footer id="contato">
+    <div class="img-footer">
+<img src="<?php echo _URLTHEME; ?>/assets/img/logo-footer.png" alt="">
+</div>
+
+        <div class="footer-content">
+                <div style="padding-right: 50px;">
+                    <p>Endereço: 133/2 - Lisboa - PT</p><BR>
+                    <p>www.bonadea.pt</p>
+                </div>
+                <div style="padding-right: 50px;">
+                    <p>contato@bonadea.pt</p><BR>
+                    <p>91264-5395</p>
+                </div>
+                <div>
+                    <p>De Terça a Sábado das 9h às 19h</p><BR>
+                    <p>Mais de 160 MIL Mulheres transformadas</p>
+                </div>
+        </div>
+        <div class="final-footer">
+        <p>www.bonadea.pt. <BR>
+        <small>All Right Reserved</small></p>
+        </div>
+
+    </footer>
+
 <?php wp_footer(); ?>
 </body>
 </html>
