@@ -176,30 +176,72 @@ Bruna Barbosa é mais do que uma profissional da área da beleza – é uma mulh
 
 
 
-<section class="section-eight">
-    <div class="content">
-        <div class="titulo"><center><h1>PERGUNTAS FREQUENTES (FAQ)</h1></center></div>        
-    </div>
-</section>
+<section class="dez">
+        <h2>Perguntas Frequentes (FAQ)</h2>
+        <div class="item">
+        <img src="<?php echo _URLTHEME; ?>/assets/img/icone-seta.svg">
+        <h3>Preciso já ter algum conhecimento no idioma para começar?</h3>
+            <p>Não. O treinamento DRIVE VIP é ideal para quem começará do zero. Também é ideal para quem está buscando
+                aprimoramentos.</p>
+        </div>
+        <div class="item">
+        <img src="<?php echo _URLTHEME; ?>/assets/img/icone-seta.svg">
+        <h3>Qual a idade mínima para fazer o Treinamento DRIVE VIP?</h3>
+            <p>12 anos</p>
+        </div>
+        <div class="item">
+        <img src="<?php echo _URLTHEME; ?>/assets/img/icone-seta.svg">
+            <h3>Qual a idade máxima para fazer o Treinamento DRIVE VIP?</h3>
+            <p>Não existe. Já diria o ditado: “nunca é tarde para começar”. Adultos de diversas idades estão cada vez
+                mais interessados em se tornar bilíngues.</p>
+        </div>
+        <div class="item">
+        <img src="<?php echo _URLTHEME; ?>/assets/img/icone-seta.svg">
+        <h3>O treinamento DRIVE VIP é um curso à distância?</h3>
+            <p> Sim. O professor (a) aparece ao vivo com a câmera ligada para falar com o aluno.</p>
+        </div>
+        <div class="item">
+        <img src="<?php echo _URLTHEME; ?>/assets/img/icone-seta.svg">
+        <h3>Preciso ter um computador para participar dos Treinamentos?</h3>
+            <p>Não. Embora um computador fosse o ideal, também é possível fazer o treinamento através de celular ou
+                tablet.</p>
+        </div>
+        
+       
+    </section>
 
 
 
 
 <section class="section-nine">
     <div class="content">
-        <div class="box-esquerda">
+        <div class="box-esquerda" style="display: flex; flex-direction: column; align-items: center; justify-center: center;">
 
-<BR><BR>
+<img src="<?php echo _URLTHEME; ?>/assets/img/bonadealogo.png">
 <div class="textosnormais">Matricule-se preenchendo os campos abaixo</div> 
 <BR>
-<div class="form">
-<form>
+<form class="forms">
 
-<input type="text">
-<input type="text">
-<input type="text">
 
-</form></div>
+<div class="form__group field">
+  <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+  <label for="name" class="form__label">Nome completo</label>
+</div>
+
+
+<div class="form__group field">
+  <input type="input" class="form__field" placeholder="Nome" name="nametwo" id='nametwo' required />
+  <label for="nametwo" class="form__label">Telefone</label>
+</div>
+
+<div class="form__group field">
+  <input type="input" class="form__field" placeholder="Nome" name="namethree" id='namethree' required />
+  <label for="namethree" class="form__label">Area de atuação</label>
+</div>
+<div class="form__group field">
+  <input type="checkbox" class="form__field"  style="left: 0;" placeholder="Nome" name="namethree" id='namethree' /> Li e concordo 
+</div>
+</form>
 
         </div>
         <div class="box-direita">
@@ -210,8 +252,45 @@ Bruna Barbosa é mais do que uma profissional da área da beleza – é uma mulh
     </div>
 </section>
 
+<script>
+    /* ---- Elementos ---- */
 
+const divPai = document.querySelector('.dez')
 
+/* ---- Eventos ---- */
+
+divPai.addEventListener('click', callbackClickCollapsible)
+
+/* ---- Callbacks ---- */
+
+function callbackClickCollapsible (evento) {
+    const elemento = evento.target
+
+    if (!elemento.matches('.item')) return false
+
+    desativarDivs()
+    ativarDiv(elemento)
+}
+
+/* ---- Aux Functions ---- */
+
+function ativarDiv (div) {
+    if (!div) return false
+
+    const classe = 'ativo'
+    div.classList.add(classe)
+}
+
+function desativarDivs () {
+    const divItems = document.querySelectorAll('.dez .item')
+    const classe = 'ativo'
+
+    for (const div of divItems) {
+        div.classList.remove(classe)
+    }
+}
+
+</script>
 <?php
 get_footer();
 ?>
