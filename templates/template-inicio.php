@@ -179,32 +179,22 @@ Bruna Barbosa é mais do que uma profissional da área da beleza – é uma mulh
 <section class="dez">
         <h2>Perguntas Frequentes (FAQ)</h2>
         <div class="item">
-        <img src="<?php echo _URLTHEME; ?>/assets/img/icone-seta.svg">
-        <h3>Preciso já ter algum conhecimento no idioma para começar?</h3>
-            <p>Não. O treinamento DRIVE VIP é ideal para quem começará do zero. Também é ideal para quem está buscando
-                aprimoramentos.</p>
+        <img src="<?php echo _URLTHEME; ?>/assets/img/seta.png">
+        <h3>É preciso ter experiência prévia?</h3>
+            <p>Não, não é preciso ter experiência prévia. O curso é destinado a todos, mesmo para quem não é da área.</p>
         </div>
         <div class="item">
-        <img src="<?php echo _URLTHEME; ?>/assets/img/icone-seta.svg">
-        <h3>Qual a idade mínima para fazer o Treinamento DRIVE VIP?</h3>
-            <p>12 anos</p>
+        <img src="<?php echo _URLTHEME; ?>/assets/img/seta.png">
+        <h3>O curso tem prática?</h3>
+            <p>Sim, o curso é prático e teórico, garantindo uma formação completa.
+            </p>
         </div>
         <div class="item">
-        <img src="<?php echo _URLTHEME; ?>/assets/img/icone-seta.svg">
-            <h3>Qual a idade máxima para fazer o Treinamento DRIVE VIP?</h3>
-            <p>Não existe. Já diria o ditado: “nunca é tarde para começar”. Adultos de diversas idades estão cada vez
-                mais interessados em se tornar bilíngues.</p>
-        </div>
-        <div class="item">
-        <img src="<?php echo _URLTHEME; ?>/assets/img/icone-seta.svg">
-        <h3>O treinamento DRIVE VIP é um curso à distância?</h3>
-            <p> Sim. O professor (a) aparece ao vivo com a câmera ligada para falar com o aluno.</p>
-        </div>
-        <div class="item">
-        <img src="<?php echo _URLTHEME; ?>/assets/img/icone-seta.svg">
-        <h3>Preciso ter um computador para participar dos Treinamentos?</h3>
-            <p>Não. Embora um computador fosse o ideal, também é possível fazer o treinamento através de celular ou
-                tablet.</p>
+        <img src="<?php echo _URLTHEME; ?>/assets/img/seta.png">
+            <h3>Quais são as políticas de inscrição e cancelamento?</h3>
+            <p>	•   Para garantir a sua vaga, é necessário pagar um valor de inscrição de 50 euros e também um sinal correspondente a 20% do valor total do curso (valor total: 1.497 euros).
+<BR><BR>
+•	Cancelamentos só serão aceitos com até 5 dias de antecedência da data do curso. Caso contrário, o valor pago será retido e ficará como crédito para realizar o curso em uma próxima data.</p>
         </div>
         
        

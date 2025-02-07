@@ -811,12 +811,11 @@ nav .menu li a:hover {
 .form__field {
     font-family: inherit;
     width: 100%;
-    border: 0;
-    border-bottom: 1px solid gray;
+    border: 1px solid gray;
     outline: 0;
     font-size: 1.3rem;
     color: var(--textos);
-    padding: 7px 0;
+    padding: 10px 0;
     background: transparent;
     transition: border-color 0.2s;
   
@@ -840,6 +839,7 @@ nav .menu li a:hover {
     font-weight: 400;
     position: absolute;
     display: block;
+    margin-bottom: 2px;
     transition: 0.2s;
     color: var(--textos);
   }
@@ -848,14 +848,15 @@ nav .menu li a:hover {
     ~ .form__label {
       position: absolute;
       display: block;
-      margin-top: -35px;
+      margin-top: -25px;
       transition: 0.2s;
       font-size: 10px;
       color: #dea194;
       font-weight:700;    
     }
-    padding-left: 30%; 
+    padding-left: 25%; 
     font-weight: 500;
+    font-family: 'textbook-new', sans-serif;
     border-width: 1px;
     border-image: linear-gradient(to right, #dea194,#ad7e74);
     border-image-slice: 1;
@@ -982,30 +983,12 @@ section.dez h2 span {
     color: transparent;
 }
 
-section.dez .sombra-um {
-    position: absolute;
-    width: 100%;
-    height: 150px;
-    top: 0;
-    left: 0;
-    z-index: 2;
-}
-
-section.dez .sombra-dois {
-    position: absolute;
-    width: 100%;
-    height: 150px;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
-}
-
 section.dez .item {
     position: relative;
     align-items: flex-start;
     cursor: pointer;
-    width: 100%;
-    border-bottom: 1px solid #ffffff55;
+    width: 80%;
+    border-bottom: 1px solid var(--textos);
     padding-bottom: 20px;
     margin-top: 30px;
     z-index: 3;
@@ -1026,6 +1009,8 @@ section.dez .item * {
 section.dez .item h3 {
     font-family: 'textbook-new', sans-serif;
     font-weight: 800;
+    font-size: 18px;
+
     color: var(--textos);
 }
 
@@ -1035,8 +1020,8 @@ section.dez .item.ativo h3 {
 
 section.dez .item p {
     font-family: 'textbook-new', sans-serif;
-    font-weight: 600;
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 18px;
     color: var(--textos);  
     line-height: 0;
     opacity: 0;
