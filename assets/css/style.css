@@ -519,13 +519,204 @@ nav .menu li a:hover {
 .section-five .content{
     display: flex;
     position: relative;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-    min-height: 300px;
+    height: 500px;
+    min-height: 500px;
     color: var(--branco);
     background-color: var(--branco) !important;
 
+}
+.section-five .content .box{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    left: 0;
+    z-index: 200;
+}
+.section-five .content .box .esquerda{
+    width: 50%;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    color: var(--textos);
+}
+.section-five .content .box .esquerda h1{
+    align-items: center;
+    justify-content: center;
+    font-family: 'textbook-new', sans-serif;
+    font-weight: 900;
+    margin-top: -10px;
+    margin-left: 33%;
+   font-size: 70px;
+}
+.section-five .content .box .esquerda h2{
+    align-items: center;
+    justify-content: center;    
+    margin-left: 33%;
+    font-family: 'textbook-new', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.section-five .content .box .esquerda .btn{
+    font-family: 'textbook-new', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 23%;
+    border-radius: 25px;
+    margin-top: -5%;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    background-color: var(--padrao);
+    color: var(--branco);
+    height: 25px;
+}
+
+.section-five .content .box .direita{
+    width: 50%;
+    align-items: center;
+    min-width: 50%;
+    right: 0;
+    justify-content: center;
+    color: var(--textos);
+}
+
+/* end section five */
+
+/* section six */
+.section-six{
+    position: relative;
+    display: flex;
+    background: var(--branco);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+    left: 0;
+    margin-top: -5%;
+    z-index: 199;
+}
+.section-six .botao{
+    background: var(--padrao);
+    color: var(--branco);
+    width: 200px !important;
+    height: 60px;
+    display: flex;
+    margin-top: -2%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    transition: all 0.5s;
+
+}
+.section-six .botao a{
+    align-items: center;
+    font-family: 'textbook-new', sans-serif;
+    font-weight: 600;
+    font-size 16px;
+    text-decoration: none;
+    color: var(--branco);
+    justify-content: center;
+    transition: all 0.5s;
+
+}
+.section-six .botao:hover{
+    background: var(--textos);
+    color: var(--branco);
+    transition: all 0.5s;
+}
+
+
+/* section six end */
+
+/* section seven */
+.section-seven{
+    height: 100vh;
+
+    background: var(--textos);
+    display: flex;
+    position: relative;
+    height: auto;
+    min-height: 620px;
+    max-height: 800px;
+}
+.section-seven .content-seven{
+    display: flex;
+    background: var(--textos);
+}
+.section-seven .content-seven .imagem{
+    background-color: transparent !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;    
+    min-height: 100%;
+    width: 25%;
+    right: 0;
+    position: absolute;
+}
+
+
+.section-seven .content-seven-text h1 {
+    font-family: "carlasans";
+    padding-left: 10%;
+    font-weight: 400;
+    color: var(--branco);
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+.section-seven .content-seven-text h3 {
+    font-family: "Montserrat";
+    padding-left: 10%;
+    font-weight: 500;
+    max-width: 75%;
+    width: 100%;
+    color: var(--branco);
+    font-size: 12px;
+    line-height: 2;
+}
+.section-seven .content-seven .botao{
+    background: var(--branco);
+    margin-top: 15px;
+    margin-bottom: 55px;
+    color: var(--padrao);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 35px;
+    border-radius: 25px;
+
+}
+
+
+
+
+
+/* end section seven */
+
+/*  section eight */
+.section-eight .content{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    background: #f8f0f0;
+    width: 100%;
+    justify-content: center;
+    min-height: 200px;
+    height: auto;
+}
+
+.section-eight .content .titulo{
+    display: flex;
+    font-family: 'carlasans';
+    font-size: 20px;
+    color: var(--textos);
+    font-weight: 400;
+    justify-content: center;
 }
 
 
@@ -535,7 +726,85 @@ nav .menu li a:hover {
 
 
 
-/* end section five */
+
+/* end section eight */
+
+/*  section nine */
+.section-nine .content{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    background: var(--padrao);
+    width: 100%;
+    min-height: 200px;
+    height: auto;
+}
+.section-nine .content .box-esquerda{
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    color: var(--textos);
+    flex-direction: row;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background:  var(--branco);
+    height: 100%;
+    min-height: 200px;
+    padding-top: 10;
+    width: 30%;
+}
+.textosnormais{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: var(--textos);
+    font-family: 'textbook-new', sans-serif;
+    align-items: center;
+}
+.form{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.section-nine .content .box-direita{
+    display: flex;
+    color: var(--branco);
+    flex-direction: row;
+    padding-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    height: 100%;
+    min-height: 200px;
+    padding-top: 10;
+    width: 50%;
+}
+.section-nine .content .box-direita .titulo{
+    display: flex;
+    font-family: 'carlasans';
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    color: var(--branco);
+    font-weight: 400;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+/* end section nine */
+
+
+
+
+
 /* footer */
 
 
@@ -543,14 +812,14 @@ nav .menu li a:hover {
 /* Footer */
 footer {
     background: #f8f0f0;
-    padding: 4rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .footer-content {
     display: flex;
     max-width: 100%;
     margin: 0 auto;
-    gap: 2rem;
+    gap: 1rem;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -558,7 +827,7 @@ footer {
     font-family: 'textbook-new', sans-serif;
 }
 .footer-content img{
-    height: 60px;
+    height: auto;
 }
 footer .img-footer{
     display: flex;

@@ -125,10 +125,91 @@ Oeiras - BonaDea </p>
 <section class="section-five">
     <div class="content">
         <div class="box">
-            
+            <div class="esquerda">
+                <h2>Preço do curso.</h2>
+                <h1>1497</h1>
+                <button class="btn">com kit e material incluído</button>
+            </div>
+            <div class="direita">
+                <h2>Prço</h2>
+            </div>
+</div>
+    </div>
+    
+</section>
+    <section class="section-six">
+        <div class="botao">
+        <a href="#" class="euquero"> Eu quero</a>
         </div>
+        </section>
+
+        
+    
+<section class="section-seven">
+    <div class="content-seven">
+    <div class="content-seven-text">
+            <h1>Quem é a Bruna Barbosa<BR>
+           <small> (Formadora) </small></h1>
+            <h3>
+           <p class="">
+            <B>Bruna Barbosa é uma referência na área da beleza e estética em Portugal.</B>
+            <BR><br>
+
+Fundadora da Bonadea, um espaço conceituado com mais de 15 anos de história, Bruna lidera com paixão e excelência, criando uma experiência que vai além dos tratamentos estéticos, ajudando as suas clientes a sentirem-se mais confiantes, bonitas e poderosas. Especialista em técnicas avançadas de extensão de pestanas, lifting de pestanas, design de sobrancelhas e threading, Bruna construiu uma carreira sólida e respeitada. A Bonadea já foi reconhecida como um dos 10 melhores espaços para aplicação de pestanas em Portugal, um marco que reforça o seu compromisso com a qualidade, inovação e atendimento personalizado.
+<BR><BR>
+Com um olhar apurado para os detalhes e uma abordagem que combina arte, técnica e cuidado, Bruna não só transforma olhares, mas também eleva a autoestima de cada cliente que passa pelo seu espaço. O ambiente acolhedor e a dedicação da sua equipa fazem da Bonadea um lugar único, sinónimo de confiança e excelência em estética. Além da sua prática, Bruna dedica-se à formação de novos talentos na área, partilhando o seu vasto conhecimento e experiência através de cursos especializados. A formação “O Poder do Olhar” é uma das suas criações mais impactantes, onde ensina as técnicas mais procuradas do mercado: design de sobrancelhas, coloração e pintura de sobrancelhas, extensão de pestanas, Lifting de pestanas, brown Lamination, threading e maquilhagens de olhos e sobrancelhas.. Esta formação não é apenas um curso técnico, mas uma oportunidade de aprender com uma profissional que domina a arte de realçar a beleza com elegância e naturalidade.
+<BR><BR>
+A visão de Bruna vai além do trabalho técnico – ela acredita que cada cliente e cada aluna merecem um atendimento transformador e personalizado. O seu percurso é marcado pela constante busca pela excelência, pela inovação no setor da estética e pelo desejo de inspirar outras mulheres a conquistar os seus sonhos.
+<BR><BR>
+Bruna Barbosa é mais do que uma profissional da área da beleza – é uma mulher visionária que, com dedicação e talento, continua a redefinir os padrões do mercado de estética em Portugal. Se o objetivo é transformar olhares, Bruna é a pessoa certa para o desafio!
+
+<a class="botao">Saiba mais</a>
+</h3>
+        </div>
+        <div class="imagem" style="background-image: url('<?php echo _URLTHEME; ?>/assets/img/quemebruna.png'); ">
+        </div>
+        
+    </div>
+
+</section>
+
+
+
+
+<section class="section-eight">
+    <div class="content">
+        <div class="titulo"><center><h1>PERGUNTAS FREQUENTES (FAQ)</h1></center></div>        
     </div>
 </section>
+
+
+
+
+<section class="section-nine">
+    <div class="content">
+        <div class="box-esquerda">
+
+<BR><BR>
+<div class="textosnormais">Matricule-se preenchendo os campos abaixo</div> 
+<BR>
+<div class="form">
+<form>
+
+<input type="text">
+<input type="text">
+<input type="text">
+
+</form></div>
+
+        </div>
+        <div class="box-direita">
+
+            <div class="titulo"><center><h1>INSCREVA-SE</h1></center></div>    <BR> 
+           
+        </div>   
+    </div>
+</section>
+
 
 
 <?php
