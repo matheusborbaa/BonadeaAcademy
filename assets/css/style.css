@@ -1266,7 +1266,6 @@ nav .options .menu{
     height: 200px;
  }
 .section-one .slide-home .content .btnLogin{
-    
     display: none;
  }
 
@@ -1278,7 +1277,7 @@ nav .options .menu{
 
 
 
-    .section-two, .section-three, .section-four, .section-five, .section-six, .section-seven, section.dez, .section-eight, .section-nine, footer{
+    .section-two, .section-three, .section-four, .section-five, .section-six, .section-seven, section.dez, .section-eight, .section-nine{
         display:none;
     }
 
