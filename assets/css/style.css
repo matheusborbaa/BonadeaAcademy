@@ -1187,7 +1187,7 @@ nav .menu.ativo span.dois {
         height: 100%;
      }
      nav .options{
-      width:  40%;
+      width:  auto;
      }
     nav{
     position: absolute;
@@ -1195,7 +1195,7 @@ nav .menu.ativo span.dois {
     justify-content: space-between; 
     height: 100px;
     background-color: var(--textos);
-    width: 600px;
+    width: 100%;
     top: 0;
     }
     nav .options .logo{
