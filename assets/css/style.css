@@ -1178,7 +1178,7 @@ nav .menu.ativo span.dois {
     
 
     body {
-        width: 100%; 
+        width: 100vw; 
     
     } 
     .section-one .content {
@@ -1190,7 +1190,7 @@ nav .menu.ativo span.dois {
       width:  auto;
      }
     nav{
-    position: relative;
+    position: absolute;
     flex-direction: row;
     height: 100px;
     background-color: var(--textos);
