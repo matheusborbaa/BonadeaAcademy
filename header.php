@@ -10,11 +10,7 @@
 <body <?php body_class(); ?>>
 
     <nav class="nav">
-    <button class="menu" id="menu">
-            <span class="um"></span>
-            <span class="dois"></span>
-            <span class="tres"></span>
-        </button>   
+   
         <div class="options">
             <div class="logo">
                 <a href="<?php echo get_home_url(); ?>">
@@ -23,6 +19,9 @@
             </div>
             
         </div>
-                
-        <?php wp_nav_menu(array('theme_location' => 'main_menu')); ?>
+        <button class="menu" id="menu">
+            <span class="um"></span>
+            <span class="dois"></span>
+            <span class="tres"></span>
+        </button>   
     </nav>
