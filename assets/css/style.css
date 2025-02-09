@@ -1176,9 +1176,9 @@ nav .options .menu{
 
 
 
-@media (max-width: 460px) {
+@media screen and (max-width: 600px) {
     body {
-        width: 60rem;   
+        width: 460px;   
     } 
     .section-one .content {
         flex-direction: column;
