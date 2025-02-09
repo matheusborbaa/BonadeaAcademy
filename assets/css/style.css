@@ -1190,9 +1190,8 @@ nav .menu.ativo span.dois {
       width:  auto;
      }
     nav{
-    position: absolute;
+    position: relative;
     flex-direction: row;
-    justify-content: space-between; 
     height: 100px;
     background-color: var(--textos);
     width: 100%;
