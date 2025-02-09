@@ -1202,7 +1202,7 @@ nav .menu.ativo span.dois {
     }
     nav .options .logo img{
         width: 100px;
-        margin-top: -40px;
+        margin-top: 0;
     }
     nav .menu-item{
         display: none;
