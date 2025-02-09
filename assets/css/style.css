@@ -1125,48 +1125,46 @@ section.dez .circulo.um {
 
 /* teste menu hamburguer */
 
-nav button.menu {
+nav .menu {
     display: none;
     background-color: transparent;
     width: 20px;
     height: 20px;
-    position: relative;
+    position: absolute;
 }
 
-nav button.menu span {
-    background-color: var(--cor-branco);
+nav .menu span {
+    background-color: var(--branco);
     position: absolute;
     border-radius: 5px;
     height: 3px;
     transition: all 0.3s;
 }
 
-nav button.menu span.um {
+nav .menu span.um {
     width: 25px;
     top: 3px;
     right: 0;
 }
 
-nav button.menu span.dois {
+nav .menu span.dois {
     width: 30px;
-    bottom: 3px;
+    top: 3px;
     right: 0;
 }
 
-nav button.menu.ativo span.um {
+nav .menu.ativo span.um {
     width: 30px;
     top: 8px;
     right: -5px;
     transform: rotate(45deg);
 }
 
-nav button.menu.ativo span.dois {
+nav .menu.ativo span.dois {
     width: 30px;
-    bottom: 9px;
+    top: 9px;
     right: -5px;
     transform: rotate(-45deg);
-}
-nav .options .menu{
 }
 
 
@@ -1217,28 +1215,37 @@ nav .options .menu{
         background-color: transparent !important;
         width: 220px;
         height: 20px;
+        top: 0;
+        margin-top: 30px;
         position: absolute;
         right: 0;
     }
     
-    nav  button.menu span {
-        background-color: var(--textos);
+    nav  .menu span {
+        background-color: var(--branco);
         color: var(--textos);
         position: absolute;
         border-radius: 2px;
-        height: 4px;
+        height: 3px;
         right: 0;
         z-index: 3000;
         transition: all 0.3s;
     }
-    
-    nav  button.menu span.um {
+    nav  .menu span.tres {
+        width: 20px;
+        margin-top: 16px;
+
+        top: 0;
+        right: 0;
+    }
+    nav  .menu span.um {
         width: 25px;
+        margin-top: 10px;
         top: 0;
         right: 0;
     }
     
-    nav   button.menu span.dois {
+    nav   .menu span.dois {
         width: 30px;
         top:0;
         right: 0;
@@ -1306,7 +1313,7 @@ nav .options .menu{
 
 
 
-    .section-two, .section-three, .section-four, .section-five, .section-six, .section-seven, section.dez, .section-eight, .section-nine{
+    .section-two, .section-three, .section-four, .section-five, .section-six, .section-seven, section.dez, .section-eight, .section-nine, footer{
         display:none;
     }
 
