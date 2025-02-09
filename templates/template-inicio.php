@@ -8,7 +8,8 @@ get_header();
 ?>
 
 <section class="section-one">
-    <div class="slide-home" style="background-color: #000; background-image: url('<?php echo _URLTHEME; ?>/assets/img/videoinicio.png')">
+    <div class="slide-home" style="background-color: #000;">
+    
         <div class="content">
         <div class="btnbusca"><i class="fa fa-search" style="margin: 0 1px 1px 0;align-items: center; justify-content:center;"></i><input type="text" /></div>
         <div class="btnLogin"><i class="fa fa-user"></i></div>
@@ -28,7 +29,12 @@ get_header();
           <button class="btn" href="" src="#">Saiba mais </button></a>
 
         </div>
-
+        <video autoplay id="bgvid" poster="<?php echo _URLTHEME; ?>/assets/img/videoinicio.png" class="video-element" width="100%" height="100%" controls>
+        <source src="<?php echo _URLTHEME; ?>/assets/videos/home.mp4" type="video/mp4">
+  <p>
+    O seu navegador não tem suporte a vídeo HTML. Em vez disso, aqui está
+  </p>
+</video>
     </div>
 </section>
 <section class="section-two">

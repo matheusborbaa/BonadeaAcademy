@@ -84,12 +84,15 @@ nav .menu li a:hover {
     display: flex;
     padding: 0;
     position: relative;
-    height: 100vh;
+    height: 100%;
+    z-index: ;
 }
 .section-one .playvideo{
     position: absolute;
+    
     align-items:  center;
     top: 50%;
+    z-index: 2;
     left: 50%;
     opacity: 0.7;
 }
@@ -100,6 +103,8 @@ nav .menu li a:hover {
 }
 
 .section-one .content-icons {
+    z-index: 2;
+
     display: flex;
     position: absolute;
     right: 10%;
@@ -149,6 +154,7 @@ nav .menu li a:hover {
     width: 100%;
     max-width: 350px;
     padding: 0;
+    z-index: 2;
 }
 .section-one .content-text h1 {
     margin-top: 24%;
@@ -161,6 +167,7 @@ nav .menu li a:hover {
 .section-one .slide-home .content .btnbusca{
     position: absolute;
     display: flex;
+    z-index: 2;
     background: var(--branco);
     color: var(--padrao);
     border-radius:  30px;
@@ -177,6 +184,7 @@ nav .menu li a:hover {
     padding-left: 10px;
 }
 .btnBusca input{
+
     border-radius: 30px;
     background-color: var(--branco);
     font-family: 'Montserrat';
@@ -186,6 +194,7 @@ nav .menu li a:hover {
 
 .section-one .slide-home .content .btnLogin{
     position: absolute;
+    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,6 +209,8 @@ nav .menu li a:hover {
     
 }
 .section-one .content .btn {
+    z-index: 2;
+
     position: absolute;
     left: 20%;
     bottom: 5%;
@@ -1168,15 +1179,27 @@ nav .menu.ativo span.dois {
 }
 
 
-
-
-
-
+video#bgvid {
+    position: absolute;
+    z-index: 0;
+    background: url(http://localhost:8080/KittoCreative/wp-content/themes/BonadeaAcademy/assets/img/videoinicio.png) no-repeat;
+    background-size: 100% 100%;
+    top: 0px;
+    left: 0px; /* fixed to left. Replace it by right if you want.*/
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
 
 
 @media screen and (max-width: 600px) {
     
 
+    video#bgvid {
+      display: none;
+    }
+    
     body {
         width: 100vw; 
     
