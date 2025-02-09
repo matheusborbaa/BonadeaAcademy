@@ -1176,7 +1176,7 @@ nav .options .menu{
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 460px) {
     body {
         width: 85rem;   
     } 
