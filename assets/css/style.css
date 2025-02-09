@@ -1063,7 +1063,9 @@ section.dez .item h3 {
 }
 
 /* Responsive Design */
+.dez {
 
+}
 section.dez .item.ativo h3 {
     padding-bottom: 20px;
 }
@@ -1243,6 +1245,41 @@ nav .options .menu{
         right: 9px;
         top: 5px;
         transform: rotate(-45deg);
+    }
+ /* section one responsivo */
+ .section-one{
+        flex-direction: column;
+    }
+ 
+ .section-one .content .content-text{
+    top: 0;
+    margin: 0;
+    padding: 0;
+    left: 80px;
+ }
+ .section-one .content .btn{
+    top: 400px;
+    left: 80px;
+ }
+ .section-one .slide-home .content .btnbusca{
+    display: none;
+    height: 200px;
+ }
+.section-one .slide-home .content .btnLogin{
+    
+    display: none;
+ }
+
+
+
+
+
+
+
+
+
+    .section-two, .section-three, .section-four, .section-five, .section-six, .section-seven, section.dez, .section-eight, .section-nine, footer{
+        display:none;
     }
 
     
