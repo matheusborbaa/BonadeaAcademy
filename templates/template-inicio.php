@@ -205,39 +205,40 @@ Bruna Barbosa é mais do que uma profissional da área da beleza – é uma mulh
 
 <section class="section-nine">
     <div class="content">
-        <div class="box-esquerda" style="display: flex; flex-direction: column; align-items: center; justify-center: center;">
+        <div class="box-esquerda" style="display: flex; flex-direction: column; align-items: center; ">
 
 <img src="<?php echo _URLTHEME; ?>/assets/img/bonadealogo.png">
 <div class="textosnormais">Matricule-se preenchendo os campos abaixo</div> 
 <BR>
-<form class="forms">
 
 
-<div class="form__group field">
-  <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
-  <label for="name" class="form__label">Nome completo</label>
-</div>
+<form class="formulario-login" action="#" method="post">
+    <input type="text" class="campo" name="nome" placeholder="Nome Completo"/>
+    <input type="text" class="campo" name="tel" placeholder="Telefone"/>
+    <input type="text" class="campo" name="areaatuacao" placeholder="Area de Atuação"/>
+    <p> <input type="checkbox"> <span>Eu li e concordo com os termos</span> </p>
+
+    <input type="submit"  class="btn" value="Finalizar minha inscrição" />
 
 
-<div class="form__group field">
-  <input type="input" class="form__field" placeholder="Nome" name="nametwo" id='nametwo' required />
-  <label for="nametwo" class="form__label">Telefone</label>
-</div>
-
-<div class="form__group field">
-  <input type="input" class="form__field" placeholder="Nome" name="namethree" id='namethree' required />
-  <label for="namethree" class="form__label">Area de atuação</label>
-</div>
-<div class="form__group field">
-  <input type="checkbox" class="form__field"  style="left: 0;" placeholder="Nome" name="namethree" id='namethree' /> Li e concordo 
-</div>
 </form>
 
         </div>
         <div class="box-direita">
 
-            <div class="titulo"><center><h1>INSCREVA-SE</h1></center></div>    <BR> 
-           
+            <div class="titulo"><h1>INSCREVA-SE</h1></div>    <BR> 
+           <div class="paragrafo">
+           Matricule-se agora na BonaDea Academy, a melhor escola de beleza de Portugal!
+<BR><BR>
+E não perca essa oportunidade de mudar de vida de muitas mulheres.
+<BR><BR><BR><BR><BR>
+
+<B>Contato e Suporte</B>
+<BR><BR>
+<i class="fa fa-envelope"></i> brunamaiabarbosa@gmail.com
+<BR><BR>
+<i class="fa fa-whatsapp"></i> 919847399
+           </div>
         </div>   
     </div>
 </section>

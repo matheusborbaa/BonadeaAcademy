@@ -730,6 +730,18 @@ nav .menu li a:hover {
 /* end section eight */
 
 /*  section nine */
+
+
+
+@media only screen and (max-width: 600px) {
+    
+.section-nine .content{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+
 .section-nine .content{
     display: flex;
     position: relative;
@@ -741,7 +753,6 @@ nav .menu li a:hover {
 }
 .section-nine .content .box-esquerda{
     display: flex;
-    align-items: center;
     border-radius: 30px;
     color: var(--textos);
     flex-direction: row;
@@ -749,7 +760,7 @@ nav .menu li a:hover {
     margin-top: 3%;
     margin-bottom: 3%;
     background:  var(--branco);
-    height: 100%;
+    height: 80%;
     min-height: 500px;
     padding-top: 10;
     width: 30%;
@@ -772,100 +783,146 @@ nav .menu li a:hover {
 .section-nine .content .box-direita{
     display: flex;
     color: var(--branco);
-    flex-direction: row;
+    flex-direction: column;
     padding-left: 10%;
     margin-top: 3%;
     margin-bottom: 3%;
     height: 100%;
-    min-height: 200px;
+    min-height: 400px;
     padding-top: 10;
-    width: 20%;
+    width: 40%;
 }
 .section-nine .content .box-direita .titulo{
-    display: flex;
     font-family: 'carlasans';
     font-size: 30px;
-    align-items: center;
-    justify-content: center;
+    text-align: left;
+    
     color: var(--branco);
     font-weight: 200;
-    justify-content: center;
 }
-
-
-.section-nine .content. .box-direita .form__group {
-  position: flex;
-  padding: 15px 0 0;
-  margin-top: 10px;
-  width: 100%;
-}
-
-.forms{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-}
-
-
-.form__field {
-    font-family: inherit;
-    width: 100%;
-    border: 1px solid gray;
-    outline: 0;
-    font-size: 1.3rem;
-    color: var(--textos);
-    padding: 10px 0;
-    background: transparent;
-    transition: border-color 0.2s;
-  
-    &::placeholder {
-      color: transparent;
-    }
-  
-    &:placeholder-shown ~ .form__label {
-      font-family: "textbook-new", sans-serif;
-      font-size: 10px;
-      font-weight: 400;
-      font-size: 1.3rem;
-      cursor: text;
-      margin-top: -20px;
-    }
-  }
-  
-  .form__label {
-    font-family: "textbook-new", sans-serif;
-    font-size: 10px;
-    font-weight: 400;
-    position: absolute;
-    display: block;
-    margin-bottom: 2px;
-    transition: 0.2s;
-    color: var(--textos);
-  }
-  
-  .form__field:focus {
-    ~ .form__label {
-      position: absolute;
-      display: block;
-      margin-top: -25px;
-      transition: 0.2s;
-      font-size: 10px;
-      color: #dea194;
-      font-weight:700;    
-    }
-    padding-left: 25%; 
-    font-weight: 500;
+.section-nine .content .box-direita .paragrafo{
     font-family: 'textbook-new', sans-serif;
-    border-width: 1px;
-    border-image: linear-gradient(to right, #dea194,#ad7e74);
-    border-image-slice: 1;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 500;
+    color: var(--branco);
+
+}
+
+
+
+
+/* formulario */
+.formulario-login{
+
+    width: 80%;
+  
+  }
+  
+
+
+  input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+    margin-top: 10px;
+
+  }
+  
+  input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    margin-top: -1px;
+    margin-left: -1px;
+    background-color: var(--branco) !important;
+    border: 1px solid var(--textos);
+    border-radius: 4px;
+  }
+  
+  input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;    
+
+    border: solid var(--padrao);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 3px;
+    left: 6px;
+  }
+  span{
+    font-family: 'textbook-new', sans-serif;
+    font-size: 12px;
+    margin: 3px 15px;
+  }
+
+
+
+
+
+
+.formulario-login .campo{
     
+    display:block;
+    width:100%;
+    background: transparent !important;
+    border:none;
+    font-family: 'textbook-new', sans-serif;
+    padding:10px;
+    border-bottom:1px solid var(--textos);
+    outline:none;
+  
   }
-  /* reset input */
-  .form__field{
-    &:required,&:invalid { box-shadow:none; }
+  
+  .formulario-login input[type="text"]:focus , [type="password"]:focus{
+    border-bottom:2px solid var(--textos);
+  } 
+  
+  .formulario-login .btn{
+    display:block;
+    width:100%;
+    background: transparent !important;
+    border:none;
+    font-family: 'textbook-new', sans-serif;
+    padding:10px;
+    border-bottom:1px solid var(--textos);
+    outline:none;
+    background: var(--padrao) !important;
+    opacity:0.9;
+    border:none;
+    font-family: 'textbook-new', sans-serif;
+    margin-top: 20px;
+    border-radius:30px;
+    color:white;
+    font-size:1em; 
+    cursor:pointer;
+  
   }
+  
+  .formulario-login input[type="submit"]:hover{
+    opacity:1;
+    transition:.2s;
+  }
+  
+  .formulario-login input[type="submit"]:active{
+    transform:scale(0.95);
+  }
+
+  .formulario-login a:hover{
+   
+    text-decoration:underline;
+    color:rgba(0,0,0,0.8);
+  
+  
+    }  /* end formulario */
 
 
 
