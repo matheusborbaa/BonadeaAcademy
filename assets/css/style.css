@@ -1267,11 +1267,9 @@ nav .menu.ativo span.dois {
 
  
  .section-one .content .content-text{
-    
     top: 0;
     margin: 0;
     padding: 0;
-    left: 80px;
  }
  .section-one .content .btn{
     top: 300px;
@@ -1292,7 +1290,6 @@ nav .menu.ativo span.dois {
     position: absolute;
     right: 33%;
     bottom: 5%;
-    justify-content: center;
 }
 
 .section-one .content-text h1 {
