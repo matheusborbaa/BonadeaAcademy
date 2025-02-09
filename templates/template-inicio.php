@@ -29,6 +29,7 @@ get_header();
           <button class="btn" href="" src="#">Saiba mais </button></a>
 
         </div>
+        <div class="mascara"></div>
         <video autoplay id="bgvid" poster="<?php echo _URLTHEME; ?>/assets/img/videoinicio.png" class="video-element" width="100%" height="100%" controls>
         <source src="<?php echo _URLTHEME; ?>/assets/videos/home.mp4" type="video/mp4">
   <p>
