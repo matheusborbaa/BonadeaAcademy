@@ -1360,7 +1360,7 @@ video#bgvid {
     flex-direction: column;
 }
 .section-three .content-three .esquerda{
-    left: 10%;
+    left: 0;
 
 }
 .section-three .content-three .direita{
