@@ -1197,12 +1197,10 @@ nav .menu.ativo span.dois {
     width: 100%;
     top: 0;
     }
-    nav .options .logo{
-
-    }
+    
     nav .options .logo img{
         width: 100px;
-        margin-top: 0;
+        margin-top: -20px;
     }
     nav .menu-item{
         display: none;
@@ -1269,12 +1267,13 @@ nav .menu.ativo span.dois {
  .section-one .content .content-text{
     top: 0;
     margin: 0;
-    padding: 0;
+    margin-left: 40px;
     left:0;
     right: 0;
  }
  .section-one .content .btn{
     top: 300px;
+    margin-left: 40px;
     left: 0;
  }
  .section-one .slide-home{
