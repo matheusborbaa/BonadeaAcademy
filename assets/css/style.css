@@ -1183,7 +1183,7 @@ nav .menu.ativo span.dois {
     position: inherit;
     opacity: 0.5;
     width: 100%;
-    z-index: 2;
+    z-index: 2; 
 }
 video#bgvid {
     position: absolute;
