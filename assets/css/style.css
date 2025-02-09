@@ -1073,9 +1073,9 @@ section.dez .item h3 {
 
 /* Responsive Design */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 460px) {
     body {
-        width:fit-content;   
+        width:max-content;   
     }
 }
 section.dez .item.ativo h3 {
