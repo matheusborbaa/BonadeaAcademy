@@ -1064,11 +1064,6 @@ section.dez .item h3 {
 
 /* Responsive Design */
 
-@media only screen and (max-width: 460px) {
-    body {
-        width: 85rem;   
-    }
-}
 section.dez .item.ativo h3 {
     padding-bottom: 20px;
 }
@@ -1124,4 +1119,132 @@ section.dez .circulo.um {
     right: -120px;
     bottom: -100px;
     z-index: 3;
+}
+
+/* teste menu hamburguer */
+
+nav button.menu {
+    display: none;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+nav button.menu span {
+    background-color: var(--cor-branco);
+    position: absolute;
+    border-radius: 5px;
+    height: 3px;
+    transition: all 0.3s;
+}
+
+nav button.menu span.um {
+    width: 25px;
+    top: 3px;
+    right: 0;
+}
+
+nav button.menu span.dois {
+    width: 30px;
+    bottom: 3px;
+    right: 0;
+}
+
+nav button.menu.ativo span.um {
+    width: 30px;
+    top: 8px;
+    right: -5px;
+    transform: rotate(45deg);
+}
+
+nav button.menu.ativo span.dois {
+    width: 30px;
+    bottom: 9px;
+    right: -5px;
+    transform: rotate(-45deg);
+}
+nav .options .menu{
+}
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    body {
+        width: 85rem;   
+    } 
+    .section-one .content {
+        flex-direction: column;
+        height: 100%;
+        margin-top: 180px;
+     }
+    nav{
+    position: absolute;
+    flex-direction: row;
+    height: 180px;
+    background-color: var(--textos);
+    width: inherit;
+    }
+    nav .options .logo img{
+        margin-top: -100px;
+    }
+    nav .options .menu-item{
+        display: none;
+    }
+
+    nav .options .menu {
+        display: flex;
+        flex: row;
+        background-color: transparent !important;
+        width: 220px;
+        height: 20px;
+        position: absolute;
+        right: 0;
+    }
+    
+    nav .options button.menu span {
+        background-color: var(--branco);
+        color: var(--branco);
+        position: absolute;
+        border-radius: 2px;
+        height: 10px;
+        right: 0;
+        transition: all 0.3s;
+    }
+    
+    nav .options button.menu span.um {
+        margin-top: -750px;
+        width: 25px;
+        top: 0;
+        right: 0;
+    }
+    
+    nav  .options button.menu span.dois {
+        margin-top: -760px;
+        width: 30px;
+        top: -10px;
+        right: 0;
+    }
+    
+    nav  .options button.menu-menu-principal.ativo span.um {
+        width: 30px;
+        top: 12px;
+        right: -5px;
+        transform: rotate(45deg);
+    }
+    
+    nav  .options button.menu.ativo span.dois {
+        width: 30px;
+        right: 9px;
+        top: 5px;
+        transform: rotate(-45deg);
+    }
+
+    
+   
 }
