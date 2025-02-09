@@ -24,4 +24,5 @@
             <span class="dois"></span>
             <span class="tres"></span>
         </button>   
+        <?php wp_nav_menu(array('theme_location' => 'main_menu')); ?>
     </nav>
