@@ -733,15 +733,6 @@ nav .menu li a:hover {
 
 
 
-@media only screen and (max-width: 600px) {
-    
-.section-nine .content{
-    display: flex;
-    flex-direction: column;
-}
-}
-
-
 .section-nine .content{
     display: flex;
     position: relative;
@@ -1133,34 +1124,4 @@ section.dez .circulo.um {
     right: -120px;
     bottom: -100px;
     z-index: 3;
-}
-
-@media screen and (max-width: 1250px) {
-
-    section.dez {
-        background-image: url('../../../../images/files/background-efeito.png');
-        padding: 50px 15px;
-    }
-    
-    section.dez h2 {
-        font-size: var(--f5);
-        padding: 0 0 10px 0;
-    }
-    
-    section.dez .item h3 {
-        max-width: 300px;
-        font-size: var(--f3);
-    }
-    section.dez .item img{
-        top: 5px;
-    }
-
-    section.dez .circulo.um {
-        width: 200px;
-        height: 200px;
-        right: -60px;
-        bottom: -80px;
-        z-index: 3;
-    }
-
 }
