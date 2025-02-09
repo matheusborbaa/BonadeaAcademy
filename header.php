@@ -16,10 +16,11 @@
                     <img src="<?php echo _URLTHEME; ?>/assets/img/logo.png" alt="Logo Jacomossi">
                 </a>
             </div>
-            <button class="menu" id="menu">
+            
+        </div>
+        <button class="menu" id="menu">
             <span class="um"></span>
             <span class="dois"></span>
         </button>            
         <?php wp_nav_menu(array('theme_location' => 'main_menu')); ?>
-        </div>
     </nav>
