@@ -42,24 +42,23 @@ get_header();
     <div class="content-two">
         <div class="imagem" style="background-image: url('<?php echo _URLTHEME; ?>/assets/img/sobrecurso.png'); ">
         </div>
-        <div class="content-two-text">
+        <div class="content-two-text" style="">
             <h1>SOBRE O CURSO</h1>
             <h3>
-           <p class=""> O curso de Formação Profissional “O Poder do Olhar”, é uma formação transformadora que vai muito além de ensinar técnicas.</p>
-
+           <p class=""><B> O curso de Formação Profissional “O Poder do Olhar”, é uma formação transformadora que vai muito além de ensinar técnicas. </b></p>
+<BR><BR>
 Este curso foi criado para quem se quer tornar profissional na área e quem quer elevar-se e destacar- se na área, dominando as tendências mais avançadas e oferecendo serviços de excelência que encantam e fidelizam clientes.
-
+<BR><BR>
 Mais do que uma simples aprimoração, este curso é a tua oportunidade de
 te tornares uma profissional certificada na área completa do olhar. Aqui, vais dominar todas as técnicas essenciais, desde o design de sobrancelhas, threading, pintura de henna e brow lamination, até ao lifting e extensões de pestanas, culminando com maquilhagem específica para olhos e sobrancelhas.
-
+<BR><BR>
 Cada módulo foi cuidadosamente estruturado para te capacitar com as ferramentas necessárias para oferecer um serviço personalizado e de alto impacto. Vais aprender a criar resultados sofisticados, que destacam a beleza única de cada cliente, e a garantir que cada experiência seja memorável.
-
+<BR><BR>
 O curso também abrange conceitos fundamentais, como higiene, segurança e uso da ficha de anamnese, preparando-te para atuar com o máximo profissionalismo e credibilidade. Este é o curso mais completo para quem deseja ser uma referência no mercado, dominando todas as técnicas que compõem o universo do olhar.
-
+<BR><BR>
 Estás pronta para te transformar numa especialista capaz de realçar não apenas a beleza exterior, mas também a confiança das tuas clientes?
-
-  O poder do olhar está agora ao teu alcance!
-
+<BR><BR><a style="background: #dea194; width: 100%; height: 10px; padding: 1%; border-radius: 20px; color: white; font-weight: 600; font-size: 14px; text-align:center; align-items:center; justify-content: center;">  O poder do olhar está agora ao teu alcance!</a>
+<BR><BR>
 Junta-te a esta formação e dá o próximo passo para construir uma carreira de sucesso!
 
 </h3>

@@ -242,15 +242,14 @@ nav .menu li a:hover {
 
 /*start section two */
 .section-two{
-    height: 100vh;
-
-    background: var(--branco);
+   background: var(--branco);
     display: flex;
     position: relative;
-    height: 600px;
-    max-height: 600px;
+    height:auto;
+    padding-bottom: 80px;
 }
 .section-two .content-text-two{
+    height: auto;
     display: flex;
     background: var(--branco);
 }
@@ -259,6 +258,7 @@ nav .menu li a:hover {
     background-repeat: no-repeat;
     background-position: center center;    
     min-height: 600px;
+    height: 100%;
     width: 20%;
     position: absolute;
 }
@@ -333,8 +333,8 @@ nav .menu li a:hover {
     flex-direction: row;
     display: flex;
     align-items: center;
-    padding: 20px;
-    margin-right: 50px;
+    padding: 50px;
+    margin: 0% 4% 4% 4%;
     margin-bottom: 15px;
     border-radius: 20px;
     width: 33%;
@@ -926,6 +926,7 @@ nav .menu li a:hover {
   
   .formulario-login input[type="submit"]:hover{
     opacity:1;
+    background: var(--textos);
     transition:.2s;
   }
   
@@ -1163,7 +1164,16 @@ video#bgvid {
 
 @media screen and (max-width: 600px) {
     
+    .section-two .content-two .imagem{
+        display: none;
+    }
+    .section-two .content-two-text h3, h1 {
+        margin-left: 10%;
+        width: 100%;
+        max-width: 80%;
 
+
+    }
     video#bgvid {
       display: none;
     }
@@ -1306,7 +1316,7 @@ video#bgvid {
 
 
 
-/* section two responsivo */
+/* section two responsivo 
 .section-two{
     position:relative --webkit-fill-available;
     display:flex;
@@ -1331,7 +1341,7 @@ video#bgvid {
     width: 25%;
     position: absolute;
 }
-
+*/
 .section-three{
     display: block;
 }
