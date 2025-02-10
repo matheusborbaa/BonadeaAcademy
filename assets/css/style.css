@@ -18,7 +18,9 @@
 
 /* START NAVBAR */
 body {
+    width: 100% --webkit-fill-available;
     background-color: var(--padrao);
+    overflow-x: hidden;
 }
 
 nav {
@@ -1194,13 +1196,10 @@ video#bgvid {
     position: absolute;
     z-index: 0;
     background: url(http://localhost:8080/KittoCreative/wp-content/themes/BonadeaAcademy/assets/img/videoinicio.png) no-repeat;
-    background-size: 100% 100%;
     top: 0px;
     left: 0px; /* fixed to left. Replace it by right if you want.*/
-    min-width: 100%;
-    min-height: 100%;
     opacity: .5;
-    width: auto;
+    width: 100%;
     height: auto;
 }
 
