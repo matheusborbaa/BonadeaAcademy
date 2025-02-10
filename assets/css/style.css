@@ -294,7 +294,7 @@ nav .menu li a:hover {
 }
 
 .section-three .content-three{
-    background-color: var(--padrao);
+    background-color: var(--text);
     display: flex;
     flex-direction: column;
 
@@ -303,20 +303,20 @@ nav .menu li a:hover {
     font-family: 'carlasans';
     color: var(--branco);
     font-size: 45px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 100%;    
+    text-align: center;
+align-items: center;
+justify-content: center;    margin-top: 2%;
     width: 100vw;
-    margin-top: 4%;
-    margin-bottom: 4%;
+
+    margin-bottom: 10%;
 }
 /* esquerda */
 .section-three .content-three .esquerda{
-    left: 15%;    
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     position: absolute;
-    margin-top: 100px;
+    margin-top: 5%;
+    left: 10%;
     justify-content: center;
 }
 .section-three .content-three .esquerda .cont{
@@ -393,8 +393,8 @@ nav .menu li a:hover {
 /* direita */ 
 
 .section-three .content-three .direita{
-    right: 15%;
-    margin-top: 100px;
+    right: 10%;
+    margin-top: 5%;
     display: flex;
     flex-direction:column;
     position: absolute;
@@ -1143,7 +1143,6 @@ section.dez .circulo.um {
 /* teste menu hamburguer */
 
 nav .menu {
-    display: none;
     background-color: transparent;
     width: 20px;
     height: 20px;
@@ -1214,9 +1213,12 @@ video#bgvid {
     }
     
     body {
-        width: 100vw; 
+        width: 100vw --webkit-fill-available; 
     
-    } 
+    }
+    .section-one .slide-home{
+        background: url('http://localhost:8080/KittoCreative/wp-content/themes/BonadeaAcademy/assets/img/videoinicio.png');
+    }
     .section-one .content {
         flex-direction: column;
         margin-top: 30px;
@@ -1344,35 +1346,44 @@ video#bgvid {
     text-transform: uppercase;
     font-size: 40px;
 }
-.section-three .content-three .titulo{
-    margin: 0;
-    margin-top: 10%;
-    font-size: 25px;
-    text-align: center;
-    align-items: center;
-    left: 0;
-}
-.section-three .content-three{
-    width: 100vw;
-    height: 1500px;
-    background-color: var(--textos);
-    display: flex;
+
+
+
+
+/* section two responsivo */
+.section-two{
+    position:relative --webkit-fill-available;
+    display:flex;
+    height: auto;
     flex-direction: column;
 }
-.section-three .content-three .esquerda{
-    left: 0;
-
+.section-two .content-two-text h1 {
+    flex: 1;
+    margin-left: 30%;
 }
-.section-three .content-three .direita{
-    margin-top: 800px;
+.section-two .content-two-text h3 {
+    flex: 1;
+    height: 100%;
+    margin-left: 30%;
+}
+.section-two .content-two .imagem{
+    flex: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;    
+    min-height: 600px;
+    width: 25%;
+    position: absolute;
+}
 
+.section-three{
+    display: block;
 }
 
 
-
-
-
-
+.section-three .content-three .direita  .section-three .content-three .esquerda, .section-three .content-three, .section-three .content-three .direita .cont, .section-three .content-three .esquerda .cont {
+    display:block;
+}
 
 
 
