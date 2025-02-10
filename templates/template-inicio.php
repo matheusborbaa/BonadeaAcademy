@@ -30,7 +30,7 @@ get_header();
 
         </div>
         <div class="mascara"></div>
-        <video allow="autoplay" muted loop id="bgvid" poster="<?php echo _URLTHEME; ?>/assets/img/videoinicio.png" class="video-element" width="100%" height="100%" controls>
+        <video allow="autoplay" muted loop id="bgvid" poster="<?php echo _URLTHEME; ?>/assets/img/videoinicio.png" class="video-element" width="100%" height="100%">
         <source allow="autoplay" loop src="<?php echo _URLTHEME; ?>/assets/videos/home.mp4" type="video/mp4">
   <p>
     O seu navegador não tem suporte a vídeo HTML. Em vez disso, aqui está
@@ -73,23 +73,44 @@ Junta-te a esta formação e dá o próximo passo para construir uma carreira de
 <section class="section-three">
     <div class="content-three">
         <div class="titulo">CONTEÚDO PROGRAMÁTICO</div>
-            <div class="esquerda">
-            <div class="cont"><img src="<?php echo _URLTHEME; ?>/assets/img/soap.png"> <div class="texto">Higiene e Segurança, Apresentação dos Materiais, Ficha de anamnese<b> (2h)</b></div> </div>
+
+        <div class="filho">
+        <img src="<?php echo _URLTHEME; ?>/assets/img/sobrancelha.png"><p class="texto">Design de sobrancelhas <b> (6h)</b></p>
+            </div>
+            <div class="filho" >
+        <img src="<?php echo _URLTHEME; ?>/assets/img/sobrancelha.png"><p class="texto">Design de sobrancelhas <b> (6h)</b></p>
+            </div>
+            <div class="filho" >
+        <img src="<?php echo _URLTHEME; ?>/assets/img/sobrancelha.png"><p class="texto">Design de sobrancelhas <b> (6h)</b></p>
+            </div>
+            <div class="filho" >
+        <img src="<?php echo _URLTHEME; ?>/assets/img/sobrancelha.png"><p class="texto">Design de sobrancelhas <b> (6h)</b></p>
+            </div>
+            <div class="filho" >
+        <img src="<?php echo _URLTHEME; ?>/assets/img/sobrancelha.png"><p class="texto">Design de sobrancelhas <b> (6h)</b></p>
+            </div>
+            <div class="filho" >
+        <img src="<?php echo _URLTHEME; ?>/assets/img/sobrancelha.png"><p class="texto">Design de sobrancelhas <b> (6h)</b></p>
+            </div>
+            <div class="filho" >
+        <img src="<?php echo _URLTHEME; ?>/assets/img/sobrancelha.png"><p class="texto">Design de sobrancelhas <b> (6h)</b></p>
+            </div>
+            <div class="filho" >
+        <img src="<?php echo _URLTHEME; ?>/assets/img/sobrancelha.png"><p class="texto">Design de sobrancelhas <b> (6h)</b></p>
+            </div>
+
+           <!--  <div class="cont"><img src="<?php echo _URLTHEME; ?>/assets/img/soap.png"> <div class="texto">Higiene e Segurança, Apresentação dos Materiais, Ficha de anamnese<b> (2h)</b></div> </div>
             <div class="cont"><img src="<?php echo _URLTHEME; ?>/assets/img/sobrancelha.png"><p class="texto">Design de sobrancelhas <b> (6h)</b></p> </div>
             <div class="cont"><img src="<?php echo _URLTHEME; ?>/assets/img/line.png"> <p class="texto">Threading em Sobrancelhas <b> (6h)</b></p> </div>
             <div class="cont"><img src="<?php echo _URLTHEME; ?>/assets/img/eye.png"> <p class="texto">Henna e Coloração de
             Sobrancelhas<b> (4h)</b></p> </div>
-            
-            <button class="cont-btn"> <img src="<?php echo _URLTHEME; ?>/assets/img/relogio.png">Total de <b style="margin-left: 4px;">40 horas</B></button>
-            </div>
-            <div class="direita">
+    
             <div class="cont"><img src="<?php echo _URLTHEME; ?>/assets/img/eye2.png"> <p class="texto">Brow Lamination<b> (4h)</b></p> </div>
             <div class="cont"><img src="<?php echo _URLTHEME; ?>/assets/img/cilios.png"><p class="texto">Lifting de Ptestanas<b> (6h)</b></p> </div>
             <div class="cont"><img src="<?php echo _URLTHEME; ?>/assets/img/ciliosposticos.png"><p class="texto">Técnicas de extensão de Pestanas<b> (8h)</b></p> </div>
             <div class="cont"><img src="<?php echo _URLTHEME; ?>/assets/img/make.png"><p class="texto">Maquilhagem de Olhos
-            e Sobrancelhas<b> (4h)</b></p> </div>
-            <button class="cont-btn">Quero me inscrever</button>
-            </div>
+            e Sobrancelhas<b> (4h)</b></p> </div> 
+            <button class="cont-btn">Quero me inscrever</button>-->
     </div>
 </section>
 

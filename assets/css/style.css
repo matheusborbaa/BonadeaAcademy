@@ -24,48 +24,52 @@ body {
 }
 
 nav {
-    align-items: center;
     position: absolute;
+    display: block;
     top:0;
     left: 0;
     background: var(--branco);
     height: 100%;
-    width: 12%;
+    width: 15%;
     z-index: 20;
 }
 .logo img {
     width: 200px;
     display: flex;
-    margin-left: 7%;
+    padding: 10 10 10 10;
+    margin-left: 15%;
+    margin-top: 15%;
     flex-direction: column;
     align-items: center;
     max-width: 100%;
 }
 nav .options {
+    position: absolute;
     align-items: center;
-    margin-top: 10%;
+    text-align: center;
+    margin: 0;
     width: 100%;
 }
 
-nav .menu {
-    margin-top: 50%;
+nav .menuprincipal {
+    margin-top: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    max-width: 100%;
 }
 
-nav .menu li {
-    padding-bottom: 10%;
-    align-items: center;
+nav .menuprincipal li {
+    padding-bottom: 2rem;
     list-style-type: none;
 }
 
-nav .menu li a {
+nav .menuprincipal li a {
     font-family: 'Montserrat';
     font-size: 14px;
     color: var(--textos);
     font-weight: 500;
-    justify-content: center;
     text-transform: capitalize;
     text-decoration: none;
     margin: 0 0 0 0;
@@ -80,7 +84,7 @@ nav .menu li a:hover {
 /* Section one Home */
 .section-one .slide-home{
     background-size: cover;
-    background-position: right right;
+    background-position: center right;
 }
 .section-one .content {
     display: flex;
@@ -106,7 +110,6 @@ nav .menu li a:hover {
 
 .section-one .content-icons {
     z-index: 2;
-
     display: flex;
     position: absolute;
     right: 10%;
@@ -290,76 +293,78 @@ nav .menu li a:hover {
  .section-three{
     background: var(--padrao);
     display: flex;
-    flex-direction: row;
-    position: relative;
-    height: 850px;
-    width: 100vw;
-    max-height: 850px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-three .content-three{
-    background-color: var(--text);
+    background-color: var(--padrao);
     display: flex;
-    flex-direction: column;
-
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 80px;
 }
 .section-three .titulo{
     font-family: 'carlasans';
     color: var(--branco);
     font-size: 45px;
     text-align: center;
-align-items: center;
-justify-content: center;    margin-top: 2%;
-    width: 100vw;
-
-    margin-bottom: 10%;
-}
-/* esquerda */
-.section-three .content-three .esquerda{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    margin-top: 5%;
-    left: 10%;
-    justify-content: center;
-}
-.section-three .content-three .esquerda .cont{
-    display: flex;
-    flex-direction: row;
-    background: var(--branco);
-    width: 500px;
-    border-radius: 30px;
-    height: 120px;
-    margin-top: 25;
     align-items: center;
+    justify-content: center;    margin-top: 2%;
+    width: 100vw;
+    margin-top: -10%;
+}
+
+.section-three .content-three .cont{
+    position:relative;
+    align-items: center;
+    padding: 20px;
+    background: var(--branco);
+    border-radius: 30px;
+    height: 100px;
+    width: 100%;
     transition: all 0.5s;
 }
-.section-three .content-three .esquerda .cont:hover{
+.section-three .content-three .filho{
+    position:relative;
+    background-color: var(--branco);
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    width: 33%;
+    min-width: 300px;
+    height: 100px;
+
+}
+.section-three .content-three .filho:hover{
     transform: scale(1.05);
     box-shadow:
   0 2px 0.4em rgb(0, 0, 0, 0.3);
   transition: all 0.5s;
 }
-.section-three .content-three .esquerda .cont img{
-    justify-content: left;
+.section-three .content-three .filho img{
+   position: inherit;
     padding-left: 5%;
-    align-items: left;
 }
-.section-three .content-three .esquerda .cont .texto{
-    justify-content: center;
-    align-items: center;
+.section-three .content-three .filho .texto{
     font-family: "textbook-new", sans-serif;
     font-weight: 700;
     font-style: normal;
     color: var(--textos);
     font-size: 18px;
-    margin-left: 5%;
+    margin-left: 6%;
     padding: 2 2 2 2;
    
 }
 
 
-.section-three .content-three .esquerda .cont-btn{
+.section-three .content-three .filho-btn{
     width: 70%;
     display: flex;
     align-items: center;
@@ -379,7 +384,7 @@ justify-content: center;    margin-top: 2%;
     transition: all 0.5s;
 
 }
-.section-three .content-three .esquerda .cont-btn img{
+.section-three .content-three .cont-btn img{
     display: flex;
     flex-direction: row;
     padding-right: 17px;
@@ -387,14 +392,14 @@ justify-content: center;    margin-top: 2%;
     width: auto;
 }
 
-.section-three .content-three .esquerda .cont-btn:hover{
+.section-three .content-three .cont-btn:hover{
     transform: scale(1.05);
     box-shadow:
   0 2px 0.4em rgb(0, 0, 0, 0.3);
   transition: all 0.5s;
 }
 /* fim esquerda */ 
-/* direita */ 
+/* direita  
 
 .section-three .content-three .direita{
     right: 10%;
@@ -1144,56 +1149,6 @@ section.dez .circulo.um {
     z-index: 3;
 }
 
-/* teste menu hamburguer */
-
-nav .menu {
-    background-color: transparent;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-}
-
-nav .menu span {
-    background-color: var(--branco);
-    position: absolute;
-    border-radius: 5px;
-    height: 3px;
-    transition: all 0.3s;
-}
-
-nav .menu span.um {
-    width: 25px;
-    top: 3px;
-    right: 0;
-}
-
-nav .menu span.dois {
-    width: 30px;
-    top: 3px;
-    right: 0;
-}
-
-nav .menu.ativo span.um {
-    width: 30px;
-    top: 8px;
-    right: -5px;
-    transform: rotate(45deg);
-}
-
-nav .menu.ativo span.dois {
-    width: 30px;
-    top: 9px;
-    right: -5px;
-    transform: rotate(-45deg);
-}
-
-.section-one .slide-home .mascara{
-    background-color: #000;
-    position: inherit;
-    opacity: 0.5;
-    width: 100%;
-    z-index: 2; 
-}
 video#bgvid {
     position: absolute;
     z-index: 0;
