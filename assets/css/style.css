@@ -1216,7 +1216,7 @@ video#bgvid {
         display:none;
     }
     .section-one .content-icons {
-        top: 83%;
+        top: 80%;
         z-index: 2000;
         left: 0;
         right: 0;
@@ -1240,7 +1240,7 @@ video#bgvid {
         display: none;
     }
     .section-one .slide-home .content .btn{
-        top: 35%;
+        top: 45%;
         left: 5%;
         width: 160px;
         margin: 0;
