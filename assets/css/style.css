@@ -801,7 +801,7 @@ nav .menu li a:hover {
     display: flex;
     color: var(--branco);
     flex-direction: column;
-    padding-left: 10%;
+    padding-left: 5%;
     margin-top: 3%;
     margin-bottom: 3%;
     height: 100%;
@@ -1216,7 +1216,7 @@ video#bgvid {
         display:none;
     }
     .section-one .content-icons {
-        top: 80%;
+        top: 83%;
         z-index: 2000;
         left: 0;
         right: 0;
@@ -1234,13 +1234,13 @@ video#bgvid {
     }
     .section-one .slide-home{
         background-color: #000 !important;
-        background-image: url('http://encurtalinks.com.br/KittoCreative/wp-content/themes/BonadeaAcademy/assets/img/videoinicio-mobile.png');
+        background-image: url('http://localhost:8080/KittoCreative/wp-content/themes/BonadeaAcademy/assets/img/videoinicio-mobile.png');
     }
     .section-one .slide-home .content .btnLogin,.section-one .slide-home .content .btnbusca{
         display: none;
     }
     .section-one .slide-home .content .btn{
-        top: 45%;
+        top: 35%;
         left: 5%;
         width: 160px;
         margin: 0;
@@ -1396,7 +1396,7 @@ video#bgvid {
 
     }
     .section-seven .content-seven{
-        background-image: url('http://encurtalinks.com.br/KittoCreative/wp-content/themes/BonadeaAcademy/assets/img/quemebruna-mobile4.png');
+        background-image: url('http://localhost:8080/KittoCreative/wp-content/themes/BonadeaAcademy/assets/img/quemebruna-mobile4.png');
         background-repeat: no-repeat;
         background-position: bottom;
         display: block;
@@ -1460,10 +1460,38 @@ video#bgvid {
     section.dez .item.ativo img{
         transform: rotate(180deg);
     }
-    .section-nine{
-        display: none;
+    .section-nine .content{
+        display: block;
+        height: auto;
+         align-content:center;
+        align-items: center;
+        justify-content: center;
+    }
+        .section-nine .content .box-esquerda{
+             align-content:center;
+        align-items: center;
+            width: 80%;
+           height: 20%;
+
+        }
+    .section-nine .content .box-direita{
+    align-content:center;
+        height: 80%;
+        align-items: center;
+        width: 80%;
     }
     footer{
-        display: none;
+        display: block;
+        
+    }
+    .footer-content {
+    display: block;
+        margin-bottom: 20px;
+    }
+footer .img-footer{
+    margin-bottom: 5%;
+    }
+    footer .final-footer{
+    
     }
 }
