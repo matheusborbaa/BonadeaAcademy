@@ -79,6 +79,60 @@ nav .menuprincipal li a {
 nav .menu li a:hover {
     color: var(--padrao);
 }
+
+
+
+
+
+/* MENU MOBILE */
+
+
+
+nav .menu-mb {
+    display: none;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 15px;
+}
+
+nav button.menu-mb span {
+    background-color: #fff;
+    position: absolute;
+    border-radius: 5px;
+    height: 3px;
+    transition: all 0.3s;
+}
+
+nav button.menu-mb span.um {
+    width: 28px;
+    top: 10px;
+    left: 0;
+}
+
+nav button.menu-mb span.dois {
+    width: 12px;
+    bottom: 3px;
+    left: 0;
+}
+
+nav button.menu-mb span.tres {
+    width: 22px;
+    bottom: -1px;
+    left: 0;
+}
+
+nav button.menu-mb span.quatro {
+    width: 15px;
+    bottom: -5px;
+    left: 0;
+}
+
+
+
+
+
 /* End NavBar */
 
 /* Section one Home */
@@ -1202,6 +1256,38 @@ video#bgvid {
     nav .options {
    display:none;
     }
+
+
+
+
+
+
+
+    
+    nav .menu-mb {
+        display: flex;
+    }
+
+    nav button.menu-mb.ativo span.um {
+        width: 30px;
+        top: 15px;
+        right: -5px;
+        transform: rotate(45deg);
+    }
+    
+    nav button.menu-mb.ativo span.dois {
+        width: 30px;
+        bottom: 2px;
+        right: -5px;
+        transform: rotate(-45deg);
+    }
+    
+    nav button.menu-mb.ativo span.tres,
+    nav button.menu-mb.ativo span.quatro {
+        display: none;
+    }
+
+
 
 
     

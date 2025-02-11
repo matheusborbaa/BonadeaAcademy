@@ -19,6 +19,13 @@
             </div>
             <div class="menuprincipal">
         <?php wp_nav_menu(array('theme_location' => 'main_menu')); ?>
+        <button class="menu-mb" id="menu-mb">
+                <span class="um"></span>
+                <span class="dois"></span>
+                <span class="tres"></span>
+                <span class="quatro"></span>
+            </button>
+
         </div>
         </div>
 
