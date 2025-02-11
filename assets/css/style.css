@@ -1348,7 +1348,7 @@ video#bgvid {
         justify-content: center;
         
     }
-    .section-nine{
+    .section-nine, footer{
         display:none;
     }
 }
