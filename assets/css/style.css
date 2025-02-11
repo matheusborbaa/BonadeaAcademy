@@ -1161,202 +1161,191 @@ video#bgvid {
     height: auto;
 }
 
-
 @media screen and (max-width: 600px) {
-    
-    .section-two .content-two .imagem{
-        display: none;
+    *{
+        margin: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
     }
-    .section-two .content-two-text h3, h1 {
-        margin-left: 10%;
+    body{
         width: 100%;
-        max-width: 80%;
-
-
     }
-    video#bgvid {
-      display: none;
-    }
-    
-    body {
-        width: 100vw --webkit-fill-available; 
-    
-    }
-    .section-one .slide-home{
-        background: url('http://localhost:8080/KittoCreative/wp-content/themes/BonadeaAcademy/assets/img/videoinicio.png');
-    }
-    .section-one .content {
-        flex-direction: column;
-        margin-top: 30px;
-        height: 100%;
-     }
-     nav .options{
-      width:  auto;
-     }
-    nav{
-    position: absolute;
-    flex-direction: row;
-    height: 100px;
-    background-color: var(--textos);
-    width: 100%;
-    top: 0;
-    }
-    
-    nav .options .logo img{
-        width: 100px;
-        margin-top: -20px;
-    }
-    nav .menu-item{
-        display: none;
-    }
-
-    nav  .menu {
+    nav {
         display: flex;
-        flex: column;
-        background-color: transparent !important;
-        width: 220px;
-        height: 20px;
+        flex-direction: row;
+        position: relative;
         top: 0;
-        margin-top: 30px;
-        position: absolute;
-        right: 0;
+        height: 90px;
+        width: 100vw;
+        background: var(--branco);
     }
+    nav .options{
+        position: relative;
+    }
+    nav .menuprincipal {
+            flex-direction: row;
+        
+    }
+    .logo img{
+        position: flex;
+        margin: 0;
+        display:flex;
+        flex-direction: row;
+        margin-left:10px;
+        margin-top: 5px;
+        height: 80px;
+        width: auto;
+    }
+    nav .options {
+   display:none;
+    }
+
+
     
-    nav  .menu span {
-        background-color: var(--branco);
-        color: var(--textos);
-        position: absolute;
-        border-radius: 2px;
-        height: 3px;
-        right: 0;
-        z-index: 3000;
-        transition: all 0.3s;
+/* End NavBar */
+
+/* Section one Home */
+
+    .section-one .slide-home{
+        background-size:auto;
     }
-    nav  .menu span.tres {
-        width: 20px;
-        margin-top: 16px;
-
-        top: 0;
-        right: 0;
-    }
-    nav  .menu span.um {
-        width: 25px;
-        margin-top: 10px;
-        top: 0;
-        right: 0;
-    }
-    
-    nav   .menu span.dois {
-        width: 30px;
-        top:0;
-        right: 0;
-    }
-    
-    nav  button.menu-menu-principal.ativo span.um {
-        width: 30px;
-        top: 0;
-        right: -5px;
-        transform: rotate(45deg);
-    }
-    
-    nav  button.menu.ativo span.dois {
-        width: 30px;
-        right: 9px;
-        top: 5px;
-        transform: rotate(-45deg);
-    }
- /* section one responsivo */
-
- 
- .section-one .content .content-text{
-    top: 0;
-    margin: 0;
-    margin-left: 40px;
-    left:0;
-    right: 0;
- }
- .section-one .content .btn{
-    top: 300px;
-    margin-left: 40px;
-    left: 0;
- }
- .section-one .slide-home{
-    top: 0;
-    margin: 0;
-    padding: 0;
-    left:0;
-    right: 0;
- }
- .section-one .slide-home .content .btnbusca{
-    display: none;
-    height: 200px;
- }
-.section-one .slide-home .content .btnLogin{
-    display: none;
- }
- .section-one .slide-home .playvideo{
-    display: none;
- }
- .section-one .content-icons {
-    display: flex;
-    position: absolute;
-    right: 33%;
-    bottom: 5%;
-}
-
-.section-one .content-text h1 {
-    margin-top: 150px;
-    font-family: 'carlasans';
-    font-weight: 400;
-    color: var(--padrao);
-    text-transform: uppercase;
-    font-size: 40px;
-}
-
-
-
-
-/* section two responsivo 
-.section-two{
-    position:relative --webkit-fill-available;
-    display:flex;
-    height: auto;
-    flex-direction: column;
-}
-.section-two .content-two-text h1 {
-    flex: 1;
-    margin-left: 30%;
-}
-.section-two .content-two-text h3 {
-    flex: 1;
-    height: 100%;
-    margin-left: 30%;
-}
-.section-two .content-two .imagem{
-    flex: 1;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right center;    
-    min-height: 600px;
-    width: 25%;
-    position: absolute;
-}
-*/
-.section-three{
-    display: block;
-}
-
-
-.section-three .content-three .direita  .section-three .content-three .esquerda, .section-three .content-three, .section-three .content-three .direita .cont, .section-three .content-three .esquerda .cont {
-    display:block;
-}
-
-
-
-      .section-four, .section-five, .section-six, .section-seven, section.dez, .section-eight, .section-nine, footer{
+    .section-one .playvideo{
         display:none;
     }
+    .section-one .content-icons {
+        top: 83%;
+        z-index: 2000;
+        left: 0;
+        right: 0;
+    }
+    .section-one .content-text {
+        top: 0;
+        left: 5%;
+    }
+    .section-one .content-text h1{
+        margin-top: 35%;
+        font-size: 40px;
+    }
+    .section-one .slide-home video{
+        display: none;
+    }
+    .section-one .slide-home{
+        background-color: #000 !important;
+        background-image: url('http://localhost:8080/KittoCreative/wp-content/themes/BonadeaAcademy/assets/img/videoinicio-mobile.png');
+    }
+    .section-one .slide-home .content .btnLogin,.section-one .slide-home .content .btnbusca{
+        display: none;
+    }
+    .section-one .slide-home .content .btn{
+        top: 35%;
+        left: 5%;
+        width: 160px;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .section-two{
+           background-color: var(--textos);
 
+    }
+    .section-two .content-text-two{
+        height: 20px;
+        display: block;
+    }
+    .section-two .content-two-text{
+        height: auto;
+    }
+    .section-two .content-two-text h1 {
+        margin: 0;
+        color: white;
+        margin-left: 0;
+        font-weight: 700;
+        text-align: center;
+        font-size: 38px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .section-two .content-two-text h3 {
+        max-width: 90%;
+        margin: 0;
+        color: var(--branco);
+        font-weight: 600;
+        align-items: center;
+        justify-content: center;
+        text-align:left;
+        margin-left: 5%;
+    }
+    .section-two .content-two .imagem{
+        width: 100%;
+        opacity: 0.1;       
+
+    }
+    .section-three{
+        display: block;        
+    }
+    .section-three .content-three{
+        margin: 0;
+        display: flex;
+        width: 100%;
+        padding-bottom: 10%;
+        
+    }
+    .section-three .titulo{
+        margin: 0;
+        padding: 5%;
+    }
     
-   
+    .section-three .content-three .filho{
+        width: 80%;
+        align-items: left;
+        justify-content: start;
+        text-align: start;
+    }
+    .section-three .content-three .filho img{
+        padding:0;
+        margin: 0;
+        position: absolute;
+        left: 4%;
+        margin-top: 4%;
+        align-items: center;
+        text-align: center;        
+    }
+    .section-three .content-three .filho .texto{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        margin-left: 15%;   
+    }
+    .section-four .content{
+        display:;
+        height: 400px;
+    }
+    .section-four .content .box{
+        display: flex;
+        padding: 3%;
+        margin: 0;
+        height: 50%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 15%;
+        width: 28%;
+        position: relative;
+        width:  !important;
+    }
+    .section-four .content .box .icone{
+        height: 10px;
+        margin-top: 10%;
+    }
+    .section-four .content .box .texto{
+        font-size: 12px;
+        margin: 0;
+        margin-top: 28%;
+        text-align: center;
+        justify-content: center;
+        
+    }
 }

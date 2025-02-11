@@ -30,6 +30,7 @@ get_header();
 
         </div>
         <div class="mascara"></div>
+        
         <video allow="autoplay" muted loop id="bgvid" poster="<?php echo _URLTHEME; ?>/assets/img/videoinicio.png" class="video-element" width="100%" height="100%">
         <source allow="autoplay" loop src="<?php echo _URLTHEME; ?>/assets/videos/home.mp4" type="video/mp4">
   <p>
@@ -63,6 +64,7 @@ Junta-te a esta formação e dá o próximo passo para construir uma carreira de
 
 </h3>
         </div>
+
     </div>
 
 </section>
