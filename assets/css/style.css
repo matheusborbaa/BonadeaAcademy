@@ -1216,7 +1216,7 @@ video#bgvid {
         display:none;
     }
     .section-one .content-icons {
-        top: 80%;
+        top: 83%;
         z-index: 2000;
         left: 0;
         right: 0;
@@ -1234,13 +1234,13 @@ video#bgvid {
     }
     .section-one .slide-home{
         background-color: #000 !important;
-        background-image: url('https://encurtalinks.com.br/kittocreative/wp-content/themes/BonadeaAcademy/assets/img/videoinicio-mobile.png');
+        background-image: url('http://localhost:8080/KittoCreative/wp-content/themes/BonadeaAcademy/assets/img/videoinicio-mobile.png');
     }
     .section-one .slide-home .content .btnLogin,.section-one .slide-home .content .btnbusca{
         display: none;
     }
     .section-one .slide-home .content .btn{
-        top: 42%;
+        top: 35%;
         left: 5%;
         width: 160px;
         margin: 0;
@@ -1337,18 +1337,133 @@ video#bgvid {
         width:  !important;
     }
     .section-four .content .box .icone{
-        height: 10px;
-        margin-top: 10%;
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-align: center;
+    }
+    .section-four .content .box .icone img{
+        width: auto;
+        height: 75%;
+        margin: 0;
+        padding: 0;
+        margin-top: 0;
     }
     .section-four .content .box .texto{
         font-size: 12px;
         margin: 0;
-        margin-top: 28%;
+        margin-top: %;
         text-align: center;
         justify-content: center;
+    }
+    .section-five .content{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .section-five .content .box {
+        display: block;
+    }
+    .section-five .content .box .esquerda{
+        margin:0;
+        margin-top: 10%;
+        padding: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+    .section-five .content .box .esquerda .btn{
+    width: 50%;
+    }
+     .section-five .content .box .direita{
+         width: 100%;
+         text-align: center;
+         margin: 0;
+         margin-top: 15%;
+         padding: 0;
+         left: 0;
+         right:0;
+         top: 0;
+         bottom: 0;   
+    }
+    .section-seven{
+        background-color: #133b47;
+        margin:0;
+        padding: 0;
+        z-index: 2;
+        height:auto;
+        max-height: inherit;
+
+    }
+    .section-seven .content-seven{
+        background-image: url('http://localhost:8080/KittoCreative/wp-content/themes/BonadeaAcademy/assets/img/quemebruna-mobile4.png');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        display: block;
+        margin:0;
+        height:auto;
+        padding: 0;
+        width: 100%;
+    }
+    .section-seven .content-seven .imagem{
+        display: none;
         
     }
-    .section-nine, footer{
-        display:none;
+    .section-seven .content-seven-text h1{
+        font-size: 25px;
+        margin:0; 
+        padding: 0;
+        
+        text-align: left;
+        margin-left: 10%;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        }
+
+    .section-seven .content-seven-text h3{
+        margin: 0;
+        margin-left: 10%;
+        justify-content: center;
+        text-align: justify;
+        padding: 0;
+        width: 100%;   
+    }
+    section.dez{
+        display: flex;
+        margin: 0;
+        width: 100%;
+        padding-left:15%;        
+    }
+    section.dez h2{
+        font-size: 25px;
+        padding: 0;
+    }
+    section.dez .item {
+       margin:0;
+        padding: 0;
+        padding-bottom: 20px;
+        align-items: start;
+        width: 99%;
+
+    }
+    
+    section.dez .item img{
+    position: absolute;
+    margin-left: 100%;
+    margin:0;
+    padding: 0;
+    right: 0;
+    left: 95%;
+    top: 5%;
+    }
+
+    section.dez .item.ativo img{
+        transform: rotate(180deg);
+    }
+    .section-nine{
+        display: none;
+    }
+    footer{
+        display: none;
     }
 }
