@@ -1348,4 +1348,7 @@ video#bgvid {
         justify-content: center;
         
     }
+    .section-nine{
+        display:none;
+    }
 }
