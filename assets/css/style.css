@@ -1153,7 +1153,6 @@ section.dez .circulo.um {
 video#bgvid {
     position: absolute;
     z-index: 0;
-    background: url(http://localhost:8080/KittoCreative/wp-content/themes/BonadeaAcademy/assets/img/videoinicio.png) no-repeat;
     top: 0px;
     left: 0px; /* fixed to left. Replace it by right if you want.*/
     opacity: .5;
@@ -1234,7 +1233,7 @@ video#bgvid {
     }
     .section-one .slide-home{
         background-color: #000 !important;
-        background-image: url('http://localhost:8080/KittoCreative/wp-content/themes/BonadeaAcademy/assets/img/videoinicio-mobile.png');
+        background-image: url('./wp-content/themes/BonadeaAcademy/assets/img/videoinicio-mobile.png');
     }
     .section-one .slide-home .content .btnLogin,.section-one .slide-home .content .btnbusca{
         display: none;

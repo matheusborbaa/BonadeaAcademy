@@ -31,7 +31,7 @@ get_header();
         </div>
         <div class="mascara"></div>
         
-        <video allow="autoplay" muted loop id="bgvid" poster="<?php echo _URLTHEME; ?>/assets/img/videoinicio.png" class="video-element" width="100%" height="100%">
+        <video allow="autoplay" muted autoplay loop id="bgvid" poster="" class="video-element" controls width="100%" height="100%">
         <source allow="autoplay" loop src="<?php echo _URLTHEME; ?>/assets/videos/home.mp4" type="video/mp4">
   <p>
     O seu navegador não tem suporte a vídeo HTML. Em vez disso, aqui está
