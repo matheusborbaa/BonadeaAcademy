@@ -273,55 +273,7 @@ E não perca essa oportunidade de mudar de vida de muitas mulheres.
 </section>
 
 <script>
-    document.getElementById('bgvid').play();
 
-    /* menu nav */
-    const nav = document.querySelector('nav')
-const botaoMenu = nav.querySelector('#menu-item')
-const opcoesMenu = nav.querySelector('#menu-item')
-const dropdown = nav.querySelector('#sub')
-const exibirDrop = nav.querySelector('#drop')
-
-document.addEventListener('click', function (event) {
-    var clickBtn = botaoMenu.contains(event.target)
-    var verificaOpcoes = opcoesMenu.classList.contains('mostrar')
-    var verificaBtn = botaoMenu.classList.contains('ativo')
-
-    if (!clickBtn || verificaOpcoes || verificaBtn) {
-
-        opcoesMenu.classList.remove('mostrar');
-        botaoMenu.classList.remove('ativo');
-
-    } else {
-
-        opcoesMenu.classList.add('mostrar');
-        botaoMenu.classList.add('ativo');
-        
-    }
-
-});
-
-document.addEventListener('click', function(event){
-    var btnDrop = dropdown.contains(event.target)
-    var verificaDrop = exibirDrop.classList.contains('exibir')
-
-    if (!btnDrop || verificaDrop) {
-
-        exibirDrop.classList.remove('exibir')
-
-    } else {
-
-        exibirDrop.classList.add('exibir')
-
-    }
-
-})
-
-window.addEventListener('scroll', () => {
-    const altura = window.scrollY
-    if (altura < 200) nav.classList.remove('scroll')
-    else nav.classList.add('scroll')
-})
 
 
 
