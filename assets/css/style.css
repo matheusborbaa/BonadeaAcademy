@@ -22,71 +22,53 @@ body {
     background-color: var(--padrao);
     overflow-x: hidden;
 }
-
 nav {
+    display: flex;
+    align-items: center;
     position: absolute;
-    display: block;
-    top:0;
-    left: 0;
-    background: var(--branco);
-    height: 100%;
-    width: 15%;
+    width: 100%;
+    padding: 0 120px;
+    height: 100px;
     z-index: 20;
 }
+
 .logo img {
     width: 200px;
-    display: flex;
-    padding: 10 10 10 10;
-    margin-left: 15%;
-    margin-top: 15%;
-    flex-direction: column;
-    align-items: center;
     max-width: 100%;
 }
+
 nav .options {
-    position: absolute;
+    display: flex;
     align-items: center;
-    text-align: center;
-    margin: 0;
+    justify-content: space-between;
     width: 100%;
 }
 
-nav .menuprincipal {
-    margin-top: 30%;
+nav .menu {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    max-width: 100%;
 }
 
-nav .menuprincipal li {
-    padding-bottom: 2rem;
+nav .menu li {
+    display: flex;
+    align-items: center;
     list-style-type: none;
 }
 
-nav .menuprincipal li a {
+nav .menu li a {
     font-family: 'Montserrat';
     font-size: 14px;
-    color: var(--textos);
+    color: #fff;
     font-weight: 500;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-decoration: none;
-    margin: 0 0 0 0;
+    margin: 0 0 0 30px;
     transition: all .6s;
 }
 
 nav .menu li a:hover {
-    color: var(--padrao);
+    color: #f26722;
 }
-
-
-
-
-
-/* MENU MOBILE */
-
-
 
 nav .menu-mb {
     display: none;
@@ -1228,21 +1210,66 @@ video#bgvid {
         width: 100%;
     }
     nav {
+        padding: 0 30px;
+    }
+
+    nav .menu {
+        flex-direction: column;
+        background-color: #F26722;
+        padding: 40px;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        align-items: unset;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: all 0.3s;
+    }
+
+    nav .mostrar .menu {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: all;
+    }
+
+    nav .menu li {
+        padding-bottom: 15px;
+    }
+
+    nav .menu li a {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    nav .menu li a:hover {
+        opacity: 0.6;
+    }
+
+    nav .menu-mb {
         display: flex;
-        flex-direction: row;
-        position: relative;
-        top: 0;
-        height: 90px;
-        width: 100vw;
-        background: var(--textos);
     }
-    nav .options{
-        position: relative;
+
+    nav button.menu-mb.ativo span.um {
+        width: 30px;
+        top: 15px;
+        right: -5px;
+        transform: rotate(45deg);
     }
-    nav .menuprincipal {
-            flex-direction: row;
-        
+    
+    nav button.menu-mb.ativo span.dois {
+        width: 30px;
+        bottom: 2px;
+        right: -5px;
+        transform: rotate(-45deg);
     }
+    
+    nav button.menu-mb.ativo span.tres,
+    nav button.menu-mb.ativo span.quatro {
+        display: none;
+    }
+
     .logo img{
         position: flex;
         margin: 0;
@@ -1253,44 +1280,7 @@ video#bgvid {
         height: 80px;
         width: auto;
     }
-    nav .options {
-   display:none;
-    }
-
-
-
-
-
-
-
     
-    nav .options .menuprincipal .menu-mb {
-        display: flex;
-        z-index:7000;
-    }
-
-    nav .options .menuprincipal button.menu-mb.ativo span.um {
-        width: 30px;
-        top: 15px;
-        right: -5px;
-        transform: rotate(45deg);
-    }
-    
-    nav .options .menuprincipal button.menu-mb.ativo span.dois {
-        width: 30px;
-        bottom: 2px;
-        right: -5px;
-        transform: rotate(-45deg);
-    }
-    
-    nav .options .menuprincipal button.menu-mb.ativo span.tres,
-    nav .options .menuprincipal button.menu-mb.ativo span.quatro {
-        display: none;
-    }
-
-
-
-
     
 /* End NavBar */
 
