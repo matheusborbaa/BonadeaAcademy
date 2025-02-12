@@ -1,4 +1,31 @@
 jQuery(function() {
+
+    const nav = document.querySelector('nav')
+    const botaoMenu = nav.querySelector('#menu-mb')
+    const opcoesMenu = nav.querySelector('#menu')
+
+    document.addEventListener('click', function (event) {
+        var clickBtn = botaoMenu.contains(event.target)
+        var verificaOpcoes = opcoesMenu.classList.contains('mostrar')
+        var verificaBtn = botaoMenu.classList.contains('ativo')
+    
+        if (!clickBtn || verificaOpcoes || verificaBtn) {
+    
+            opcoesMenu.classList.remove('mostrar');
+            botaoMenu.classList.remove('ativo');
+    
+        } else {
+    
+            opcoesMenu.classList.add('mostrar');
+            botaoMenu.classList.add('ativo');
+            
+        }
+    
+    });
+
+
+
+
     
     jQuery(document).scroll(function () {
 

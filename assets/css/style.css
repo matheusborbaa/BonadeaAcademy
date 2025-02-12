@@ -1234,7 +1234,7 @@ video#bgvid {
         top: 0;
         height: 90px;
         width: 100vw;
-        background: var(--branco);
+        background: var(--textos);
     }
     nav .options{
         position: relative;
@@ -1264,26 +1264,27 @@ video#bgvid {
 
 
     
-    nav .menu-mb {
+    nav .options .menuprincipal .menu-mb {
         display: flex;
+        z-index:7000;
     }
 
-    nav button.menu-mb.ativo span.um {
+    nav .options .menuprincipal button.menu-mb.ativo span.um {
         width: 30px;
         top: 15px;
         right: -5px;
         transform: rotate(45deg);
     }
     
-    nav button.menu-mb.ativo span.dois {
+    nav .options .menuprincipal button.menu-mb.ativo span.dois {
         width: 30px;
         bottom: 2px;
         right: -5px;
         transform: rotate(-45deg);
     }
     
-    nav button.menu-mb.ativo span.tres,
-    nav button.menu-mb.ativo span.quatro {
+    nav .options .menuprincipal button.menu-mb.ativo span.tres,
+    nav .options .menuprincipal button.menu-mb.ativo span.quatro {
         display: none;
     }
 
