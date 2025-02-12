@@ -22,99 +22,63 @@ body {
     background-color: var(--padrao);
     overflow-x: hidden;
 }
+
 nav {
-    display: flex;
-    align-items: center;
     position: absolute;
-    width: 100%;
-    padding: 0 120px;
-    height: 100px;
+    display: block;
+    top:0;
+    left: 0;
+    background: var(--branco);
+    height: 100%;
+    width: 15%;
     z-index: 20;
 }
-
 .logo img {
     width: 200px;
+    display: flex;
+    padding: 10 10 10 10;
+    margin-left: 15%;
+    margin-top: 15%;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+nav .options {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+nav .menuprincipal {
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     max-width: 100%;
 }
 
-nav .options {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-
-nav .menu {
-    display: flex;
-    align-items: center;
-}
-
-nav .menu li {
-    display: flex;
-    align-items: center;
+nav .menuprincipal li {
+    padding-bottom: 2rem;
     list-style-type: none;
 }
 
-nav .menu li a {
+nav .menuprincipal li a {
     font-family: 'Montserrat';
     font-size: 14px;
-    color: #fff;
+    color: var(--textos);
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-decoration: none;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 0;
     transition: all .6s;
 }
 
 nav .menu li a:hover {
-    color: #f26722;
+    color: var(--padrao);
 }
-
-nav .menu-mb {
-    display: none;
-    background-color: transparent;
-    width: 20px;
-    height: 20px;
-    position: relative;
-    bottom: 15px;
-}
-
-nav button.menu-mb span {
-    background-color: #fff;
-    position: absolute;
-    border-radius: 5px;
-    height: 3px;
-    transition: all 0.3s;
-}
-
-nav button.menu-mb span.um {
-    width: 28px;
-    top: 10px;
-    left: 0;
-}
-
-nav button.menu-mb span.dois {
-    width: 12px;
-    bottom: 3px;
-    left: 0;
-}
-
-nav button.menu-mb span.tres {
-    width: 22px;
-    bottom: -1px;
-    left: 0;
-}
-
-nav button.menu-mb span.quatro {
-    width: 15px;
-    bottom: -5px;
-    left: 0;
-}
-
-
-
-
-
 /* End NavBar */
 
 /* Section one Home */
@@ -1210,66 +1174,21 @@ video#bgvid {
         width: 100%;
     }
     nav {
-        padding: 0 30px;
-    }
-
-    nav .menu {
-        flex-direction: column;
-        background-color: #F26722;
-        padding: 40px;
-        position: absolute;
-        top: 100px;
-        left: 0;
-        width: 100%;
-        align-items: unset;
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
-        transition: all 0.3s;
-    }
-
-    nav .mostrar .menu {
-        opacity: 1;
-        visibility: visible;
-        pointer-events: all;
-    }
-
-    nav .menu li {
-        padding-bottom: 15px;
-    }
-
-    nav .menu li a {
-        font-size: 16px;
-        margin: 0;
-    }
-
-    nav .menu li a:hover {
-        opacity: 0.6;
-    }
-
-    nav .menu-mb {
         display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 0;
+        height: 90px;
+        width: 100vw;
+        background: var(--branco);
     }
-
-    nav button.menu-mb.ativo span.um {
-        width: 30px;
-        top: 15px;
-        right: -5px;
-        transform: rotate(45deg);
+    nav .options{
+        position: relative;
     }
-    
-    nav button.menu-mb.ativo span.dois {
-        width: 30px;
-        bottom: 2px;
-        right: -5px;
-        transform: rotate(-45deg);
+    nav .menuprincipal {
+            flex-direction: row;
+        
     }
-    
-    nav button.menu-mb.ativo span.tres,
-    nav button.menu-mb.ativo span.quatro {
-        display: none;
-    }
-
     .logo img{
         position: flex;
         margin: 0;
@@ -1280,7 +1199,11 @@ video#bgvid {
         height: 80px;
         width: auto;
     }
-    
+    nav .options {
+   display:none;
+    }
+
+
     
 /* End NavBar */
 

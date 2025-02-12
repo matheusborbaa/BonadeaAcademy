@@ -274,6 +274,21 @@ E não perca essa oportunidade de mudar de vida de muitas mulheres.
 
 <script>
 
+document.addEventListener('click', function(event){
+    var btnDrop = dropdown.contains(event.target)
+    var verificaDrop = exibirDrop.classList.contains('exibir')
+
+    if (!btnDrop || verificaDrop) {
+
+        exibirDrop.classList.remove('exibir')
+
+    } else {
+
+        exibirDrop.classList.add('exibir')
+
+    }
+
+})
 
 
 
