@@ -160,8 +160,18 @@ Oeiras - BonaDea </p>
                 <button class="btn">com kit e material incluído</button>
             </div>
             <div class="direita">
-                <h2>Prço</h2>
+            <div class="filho">
+        <img src="<?php echo _URLTHEME; ?>/assets/img/money.png"><p class="texto">Formas de Pagamento<BR>
+        
+        <a class="texto-normal">Transferência Bancária
+        </a>
+        </p>
             </div>
+            <div class="filho">
+        <img src="<?php echo _URLTHEME; ?>/assets/img/benefits.png"><p class="texto">Benefícios Extras<BR>
+        <a class="texto-normal">Vantagens adicioanis, como suporte pós-curso, acesso a um grupo exclusivo, mentorias ou atualizações futuras gratuitas.</a></p>
+            </div>
+        </div>
 </div>
     </div>
     

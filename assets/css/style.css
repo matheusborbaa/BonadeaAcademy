@@ -601,6 +601,7 @@ nav .menu li a:hover {
 }
 
 .section-five .content .box .direita{
+    margin-top: 10%;
     width: 50%;
     align-items: center;
     min-width: 50%;
@@ -608,6 +609,45 @@ nav .menu li a:hover {
     justify-content: center;
     color: var(--textos);
 }
+.section-five .content .box .direita .filho{
+    position:relative;
+    background-color:  transparent !important;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    border-radius: 20px;
+    width: 33%;
+    min-width: 100%;
+    height: 100px;
+
+}
+.section-five .content .box .direita.filho img{
+   position: inherit;
+    padding-left: 5%;
+}
+.section-five .content .box .direita .filho .texto{
+    font-family: "textbook-new", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--textos);
+    font-size: 18px;
+    margin-left: 1%;
+    padding: 2 2 2 2;
+   
+}
+.section-five .content .box .direita .filho .texto-normal {
+    font-family: "textbook-new", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--textos);
+    font-size: 18px;
+    margin-left: 1%;
+    padding: 2 2 2 2;
+   
+}
+
+
 
 /* end section five */
 
@@ -1377,6 +1417,7 @@ video#bgvid {
      .section-five .content .box .direita{
          width: 100%;
          text-align: center;
+         display: block;
          margin: 0;
          margin-top: 15%;
          padding: 0;
