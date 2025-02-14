@@ -1524,8 +1524,12 @@ video#bgvid {
     align-content:center;
         height: 80%;
         align-items: left;
-        width: 80%;
-        margin: auto;
+        width: 70%;
+        margin: 10%;
+    }
+    .section-nine .content .box-direita .titulo{
+        font-size: 20px;
+        margin:0;
     }
     .div
     footer{
