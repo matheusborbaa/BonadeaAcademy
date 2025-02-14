@@ -1200,8 +1200,9 @@ video#bgvid {
     height: auto;
 }
 
+    
 @media screen and (max-width: 600px) {
-    *{
+    *{ 
         margin: 0;
         top: 0;
         left: 0;
@@ -1248,7 +1249,7 @@ video#bgvid {
 
 /* Section one Home */
 
-    .section-one .slide-home{
+    .section-one .slide-home{    
         background-size:auto;
     }
     .section-one .playvideo{
@@ -1273,13 +1274,13 @@ video#bgvid {
     }
     .section-one .slide-home{
         background-color: #000 !important;
-        background-image: url('./wp-content/themes/BonadeaAcademy/assets/img/videoinicio-mobile.png');
+        background-image: url('http://encurtalinks.com.br/kitto/bonadeaacademy/wp-content/themes/BonadeaAcademy/assets/img/videoinicio-mobile.png');
     }
     .section-one .slide-home .content .btnLogin,.section-one .slide-home .content .btnbusca{
         display: none;
     }
     .section-one .slide-home .content .btn{
-        top: 35%;
+        top: 40%;
         left: 5%;
         width: 160px;
         margin: 0;
@@ -1378,6 +1379,7 @@ video#bgvid {
     .section-four .content .box .icone{
         margin: 0;
         padding: 0;
+        max-height: 200px;
         display: block;
         text-align: center;
     }
@@ -1392,6 +1394,7 @@ video#bgvid {
         font-size: 12px;
         margin: 0;
         margin-top: %;
+        padding:10 10 10 10;
         text-align: center;
         justify-content: center;
     }
