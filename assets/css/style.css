@@ -1419,8 +1419,11 @@ video#bgvid {
 
     }
     .section-five .content .box .esquerda .btn{
-        width: 120%;
-            margin-left: 0;
+         font-family: 'textbook-new', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+        width: 100%;
+            margin-left: 18%;
         display: block;
     }
      .section-five .content .box .direita{
