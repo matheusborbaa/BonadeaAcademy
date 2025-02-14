@@ -1379,7 +1379,7 @@ video#bgvid {
     .section-four .content .box .icone{
         margin: 0;
         padding: 0;
-        max-height: 170px;
+        max-height: 40px;
         display: block;
         text-align: center;
     } 
