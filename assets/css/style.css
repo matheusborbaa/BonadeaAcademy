@@ -1523,9 +1523,11 @@ video#bgvid {
     .section-nine .content .box-direita{
     align-content:center;
         height: 80%;
-        align-items: center;
+        align-items: left;
         width: 80%;
+        margin: auto;
     }
+    .div
     footer{
         display: block;
         
