@@ -1379,16 +1379,18 @@ video#bgvid {
     .section-four .content .box .icone{
         margin: 0;
         padding: 0;
-        max-height: 200px;
+        max-height: 170px;
         display: block;
         text-align: center;
-    }
+    } 
     .section-four .content .box .icone img{
         width: auto;
-        height: 75%;
+        max-height: 40px;
+        
         margin: 0;
         padding: 0;
         margin-top: 0;
+        margin-bottom: 10px;
     }
     .section-four .content .box .texto{
         font-size: 12px;
