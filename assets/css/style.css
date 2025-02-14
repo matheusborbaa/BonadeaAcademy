@@ -1200,9 +1200,8 @@ video#bgvid {
     height: auto;
 }
 
-    
 @media screen and (max-width: 600px) {
-    *{ 
+    *{
         margin: 0;
         top: 0;
         left: 0;
@@ -1379,10 +1378,10 @@ video#bgvid {
     .section-four .content .box .icone{
         margin: 0;
         padding: 0;
-        max-height: 40px;
+        max-height: 170px;
         display: block;
         text-align: center;
-    } 
+    }
     .section-four .content .box .icone img{
         width: auto;
         max-height: 40px;
@@ -1401,35 +1400,27 @@ video#bgvid {
         justify-content: center;
     }
     .section-five .content{
-        display: flex;
-        flex-direction: column;
+        display: block;    
+        height: 400px;
+        min-height: auto;
+        margin: 0;
+
 
     }
     .section-five .content .box {
-        display: block;
+        margin: 0;
     }
     .section-five .content .box .esquerda{
-        margin:0;
-        margin-top: 10%;
-        padding: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
+                     margin-top: -8%;
     }
     .section-five .content .box .esquerda .btn{
-    width: 50%;
+    width: 100%;
     }
      .section-five .content .box .direita{
+         padding-left: 60px;
          width: 100%;
-         text-align: center;
-         display: block;
-         margin: 0;
-         margin-top: 15%;
-         padding: 0;
-         left: 0;
-         right:0;
-         top: 0;
-         bottom: 0;   
+                     margin-top: -10%;
+
     }
     .section-seven{
         background-color: #133b47;
@@ -1526,7 +1517,7 @@ video#bgvid {
         width: 80%;
     }
     footer{
-        display: block;
+        display: block; 
         
     }
     .footer-content {

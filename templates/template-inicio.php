@@ -171,7 +171,7 @@ Oeiras - BonaDea </p>
         <img src="<?php echo _URLTHEME; ?>/assets/img/benefits.png"><p class="texto">Benefícios Extras<BR>
         <a class="texto-normal">Vantagens adicioanis, como suporte pós-curso, acesso a um grupo exclusivo, mentorias ou atualizações futuras gratuitas.</a></p>
             </div>
-        </div>
+        </div> 
 </div>
     </div>
     
