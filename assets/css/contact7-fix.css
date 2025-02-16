@@ -1,0 +1,98 @@
+
+/***** Contact 7 fix ****/
+
+.wpcf7 span.wpcf7-not-valid-tip{
+    border:none;
+    background-color:#cd192d;
+    padding:10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius:10px;
+    color: white;
+
+    /* Drop shadow */
+    -webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
+
+
+
+form.wpcf7-form p{
+padding:0px;
+margin:0px;
+}
+
+div.wpcf7-mail-sent-ok{
+    border:none !important;
+    background-color:none !important;
+}
+
+.screen-reader-response{
+    display:none !important;
+}
+
+span .wpcf7-not-valid, .invalido {
+    border-color: #cd192d !important;
+}
+
+span.wpcf7-not-valid-tip {
+    display: none !important;
+}
+
+
+div.wpcf7-validation-errors {
+    background-color: #cd192d;
+    color:white;
+}
+
+div.wpcf7 .ajax-loader.is-active{
+    clear:both !important;
+    display:block !important;
+    text-align:center !important;
+    width:100% !important;
+    margin-top:10px;
+    margin-bottom:10px;
+    background-repeat:no-repeat !important;
+    background-position:center center !important;
+}
+
+
+.wpcf7-validation-errors{
+
+    border:0px !important;
+}
+
+
+div.wpcf7-response-output {
+    font-weight:bolder;
+    padding:10px !important;
+    margin-top:5px !important;
+    margin-bottom:5px !important;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align:center;
+}
+
+.wpcf7-spam-blocked {
+     background: #e2e2e2;
+     border: 1px solid #bcbcbc !important;
+     color: #383838;
+}
+
+.wpcf7-mail-sent-ng {
+     background: #fcf8e3;
+     border: 1px solid #ac9163 !important;
+     color: #8a6d3b;
+}
+
+.wpcf7-mail-sent-ok {
+     color: white !important;
+     background-color:#27ae60 !important;
+}
+
+
+#form-top .wpcf7-response-output{
+    display:none !important;
+}
